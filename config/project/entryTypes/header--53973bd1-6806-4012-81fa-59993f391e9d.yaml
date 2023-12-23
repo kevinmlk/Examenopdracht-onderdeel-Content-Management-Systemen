@@ -31,6 +31,18 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: e7a6fa66-488e-4eec-b245-fafd1fb05c5c # Header Logo
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 30c0d5f1-5003-49f4-abea-e3d978b1fcca
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: c0014503-8109-454b-8ca4-65d8a6bc2969
         userCondition: null
