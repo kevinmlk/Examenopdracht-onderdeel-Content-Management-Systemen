@@ -1,5 +1,6 @@
 {
   "require": {
+    "abmat/craft-tinymce": "1.0.5",
     "craftcms/cms": "^4.4.0",
     "vlucas/phpdotenv": "^5.4.0"
   },
@@ -27,5 +28,12 @@
     "post-root-package-install": [
       "@php -r \"file_exists('.env') || copy('.env.example.dev', '.env');\""
     ]
-  }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.craftcms.com",
+      "canonical": false
+    }
+  ]
 }

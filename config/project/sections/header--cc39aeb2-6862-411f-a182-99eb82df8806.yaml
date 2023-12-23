@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: header
+name: header
+propagationMethod: all
+siteSettings:
+  ee746d06-a2cd-49ba-8254-f3c9b022431c: # Support Trees
+    enabledByDefault: true
+    hasUrls: true
+    template: header/_entry
+    uriFormat: header
+type: single

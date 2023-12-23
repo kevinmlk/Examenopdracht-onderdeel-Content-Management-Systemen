@@ -1,13 +1,21 @@
-dateModified: 1703355022
+dateModified: 1703371415
 email:
   fromEmail: r0900654@student.thomasmore.be
   fromName: 'Support Trees'
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    53973bd1-6806-4012-81fa-59993f391e9d: header # header
     773026d7-893c-46bb-9217-5e3c6b935c98: 'Support Trees' # Support Trees
+    c225c914-5b17-456c-962e-5d652d556c82: 'Rich Text' # Rich Text
+    cc39aeb2-6862-411f-a182-99eb82df8806: header # header
     ee746d06-a2cd-49ba-8254-f3c9b022431c: 'Support Trees' # Support Trees
     efd20e6b-636c-4c56-bfcb-514a4816314b: Common # Common
+plugins:
+  abm-tinymce:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
