@@ -1,8 +1,16 @@
-dateModified: 1703371415
+dateModified: 1703372060
 email:
   fromEmail: r0900654@student.thomasmore.be
   fromName: 'Support Trees'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  assets:
+    hasUrls: true
+    name: Assets
+    settings:
+      path: '@webroot/assets'
+    type: craft\fs\Local
+    url: '@web/assets'
 meta:
   __names__:
     53973bd1-6806-4012-81fa-59993f391e9d: header # header

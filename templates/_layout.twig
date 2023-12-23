@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{siteName}}</title>
     {# Reset CSS #}
-    {% do craft.app.view.registerCssFile('@web/assets/css/reset.css') %}
+    {% do craft.app.view.registerCssFile('@web/css/reset.css') %}
     {# Bootstrap files #}
-    {% do craft.app.view.registerCssFile('@web/assets/bootstrap/css/bootstrap.min.css') %}
+    {% do craft.app.view.registerCssFile('@web/bootstrap/css/bootstrap.min.css') %}
     {# Style CSS #}
-    {% do craft.app.view.registerCssFile('@web/assets/css/style.css?12345') %}
+    {% do craft.app.view.registerCssFile('@web/css/style.css?12345') %}
 </head>
 <body>
     <header class='container'>
