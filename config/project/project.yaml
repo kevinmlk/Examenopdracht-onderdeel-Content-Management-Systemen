@@ -1,0 +1,22 @@
+dateModified: 1703355022
+email:
+  fromEmail: r0900654@student.thomasmore.be
+  fromName: 'Support Trees'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    773026d7-893c-46bb-9217-5e3c6b935c98: 'Support Trees' # Support Trees
+    ee746d06-a2cd-49ba-8254-f3c9b022431c: 'Support Trees' # Support Trees
+    efd20e6b-636c-4c56-bfcb-514a4816314b: Common # Common
+system:
+  edition: solo
+  live: true
+  name: 'Support Trees'
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
