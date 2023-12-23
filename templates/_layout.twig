@@ -7,15 +7,18 @@
     {# Reset CSS #}
     {% do craft.app.view.registerCssFile('@web/assets/css/reset.css') %}
     {# Bootstrap files #}
-    {% do craft.app.view.registerCssFile('@web/assets/bootstrap/bootstrap.min.css') %}
+    {% do craft.app.view.registerCssFile('@web/assets/bootstrap/css/bootstrap.min.css') %}
     {# Style CSS #}
     {% do craft.app.view.registerCssFile('@web/assets/css/style.css?12345') %}
 </head>
 <body>
     <header>
       <nav>
-        <ul id="nav-menu">
-          <li><a href="{{siteUrl}}">Home</a></li>
+        <ul id="nav-menu" class='nav justify-content-end'>
+          <li class='nav-item'><a href='{{siteUrl}}' class='nav-link'>Home</a></li>
+          <li class='nav-item'><a href='{{siteUrl}}/trees' class='nav-link'>Trees</a></li>
+          <li class='nav-item'><a href='{{siteUrl}}/about' class='nav-link'>About</a></li>
+          <li class='nav-item'><a href='{{siteUrl}}/inspire' class='nav-link'>Inspire</a></li>
         </ul>
       </nav>
     </header>
