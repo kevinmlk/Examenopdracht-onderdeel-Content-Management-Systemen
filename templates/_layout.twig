@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{craft.app.language}}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{siteName}}</title>
+    {# Reset CSS #}
+    {% do craft.app.view.registerCssFile('@web/assets/css/reset.css') %}
+    {# Bootstrap files #}
+    {% do craft.app.view.registerCssFile('@web/assets/bootstrap/bootstrap.min.css') %}
+    {# Style CSS #}
+    {% do craft.app.view.registerCssFile('@web/assets/css/style.css?12345') %}
+</head>
+<body>
+    <header>
+      {% set headerTitle = craft.entries().section('headerTitle').one() %}
+      {{headerTitle.richText}}
+      <nav>
+        <input type="checkbox" name="menu-toggle" id="menu-toggle"/>
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="nav-menu">
+          <li><a href="{{siteUrl}}">Home</a></li>
+          <li><a href="{{siteUrl}}news">News</a></li>
+          <li><a href="#">How To</a></li>
+          <li><a href="{{siteUrl}}plugins">Plugins</a></li>
+          <li><a href="{{siteUrl}}about-us">About Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    {% block content %}
+    {# hier komt de content #}
+    {% endblock %}
+
+    <footer>
+        {# <p>With a commitment to quality content for the Craft-community.</p>
+        <a href="#">privacy policy</a> #}
+        {% set footer = craft.entries().section('footer').one() %}
+        {{footer.richText}}
+    </footer>
+
+</body>
+</html>
