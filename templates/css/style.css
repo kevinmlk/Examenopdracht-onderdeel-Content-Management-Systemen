@@ -15,6 +15,11 @@ body {
   font-family: Inter, 'sans-serif';
   background-color: var(--rich-black);
   color: var(--seasalt);
+  font-size: 1em;
+}
+
+h2 {
+  font-size: 2.8em;
 }
 
 header h1 a {
