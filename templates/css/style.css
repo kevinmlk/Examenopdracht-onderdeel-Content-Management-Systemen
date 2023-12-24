@@ -17,11 +17,6 @@ body {
   color: var(--seasalt);
 }
 
-header {
-  font-weight: 500;
-  font-size: 1.2em;
-}
-
 header h1 a {
   /* text-transform: uppercase; */
   color: var(--seasalt);
@@ -29,6 +24,8 @@ header h1 a {
 
 a.nav-link {
   color: var(--seasalt);
+  font-weight: 500;
+  font-size: 1.2em;
 }
 
 a.nav-link:hover {
@@ -41,15 +38,25 @@ button.btn {
   height: 60px;
   text-transform: uppercase;
   font-size: .8em;
+  font-weight: 600;
 }
 
 button.btn-primary {
   color: var(--rich-black);
   background-color: var(--spring-green);
   border-color: var(--spring-green);
-  font-weight: 600;
 }
 
+button.btn-outline-primary {
+  color: var(--seasalt);
+  border-color: var(--seasalt);
+}
+
+button.btn-outline-primary:hover {
+  color: var(--rich-black);
+  border-color: var(--spring-green);
+  background-color: var(--spring-green);
+}
 
 button.btn-primary:hover {
   background-color: var(--dartmouth-green);
