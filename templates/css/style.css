@@ -1,8 +1,19 @@
+:root {
+  --rich-black: #171A21;
+  --spring-green: #00FF7F;
+  --dartmouth-green: #125C1A;
+  --seasalt: #F7F9F9;
+
+}
+
 body {
   font-family: Inter, 'sans-serif';
+  background-color: var(--rich-black);
 }
 
 header {
   font-weight: 500;
   font-size: 1.2em;
 }
+
+
