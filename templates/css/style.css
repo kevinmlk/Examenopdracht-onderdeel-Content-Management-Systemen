@@ -6,9 +6,15 @@
 
 }
 
+::selection {
+  background-color: var(--spring-green);
+  color: var(--rich-black);
+}
+
 body {
   font-family: Inter, 'sans-serif';
   background-color: var(--rich-black);
+  color: var(--seasalt);
 }
 
 header {
@@ -16,4 +22,37 @@ header {
   font-size: 1.2em;
 }
 
+header h1 a {
+  text-transform: uppercase;
+  color: var(--seasalt);
+  text-decoration: none;
+}
+
+a.nav-link {
+  color: var(--seasalt);
+}
+
+a.nav-link:hover {
+  color: var(--spring-green);
+}
+
+button.btn {
+  border-radius: 20px;
+  padding: 0 24px;
+  height: 40px;
+}
+
+button.btn-primary {
+  color: var(--rich-black);
+  background-color: var(--spring-green);
+  border-color: var(--spring-green);
+  font-weight: 600;
+}
+
+
+button.btn-primary:hover {
+  background-color: var(--dartmouth-green);
+  color: var(--seasalt);
+  border-color: var(--dartmouth-green);
+}
 
