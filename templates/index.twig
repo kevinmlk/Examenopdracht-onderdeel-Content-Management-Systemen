@@ -2,7 +2,9 @@
     {% extends '_layout.twig' %}
 
     {% block content %}
-    <section class="news-section">
-        Hello World!
+    <section class="intro-section container mt-5 d-flex justify-content-center">
+    {% set videoEntry = craft.entries().section('heroVideoSection').one %}
+    <iframe src="{{videoEntry.videoHeader}}controls=0&autoplay=1&mute=1"></iframe>
+    
     </section>
     {% endblock %}

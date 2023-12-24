@@ -1,0 +1,12 @@
+columnSuffix: yrllsqxn
+contentColumnType: text
+fieldGroup: efd20e6b-636c-4c56-bfcb-514a4816314b # Common
+handle: videoHeader
+instructions: null
+name: 'Video Header'
+searchable: false
+settings:
+  url: ''
+translationKeyFormat: null
+translationMethod: none
+type: wrav\oembed\fields\OembedField

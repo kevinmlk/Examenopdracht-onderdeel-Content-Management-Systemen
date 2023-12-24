@@ -56,3 +56,9 @@ button.btn-primary:hover {
   border-color: var(--dartmouth-green);
 }
 
+section.intro-section iframe {
+  width: 1108px;
+  height: 80vh;
+  border-radius: 20px;
+}
+
