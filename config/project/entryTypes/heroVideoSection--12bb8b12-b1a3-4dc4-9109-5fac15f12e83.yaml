@@ -43,6 +43,30 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: f817d004-c851-42a2-a118-3b5bb3cf7b80 # Section Header
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 67d2f447-5b5e-43f9-a84c-51b9903f10fb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ddf28a1a-aba0-4630-a818-649e02804c20 # Section Paragraph
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 21ac2560-d8e3-4da9-8829-eb2b25fa7411
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: 395d0fd7-5692-49cd-8afe-5da5d30be038
         userCondition: null

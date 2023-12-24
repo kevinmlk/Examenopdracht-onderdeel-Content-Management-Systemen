@@ -6,13 +6,13 @@
     {# Hero Video Section #}
     <section class="intro-section container mt-5 d-flex justify-content-center flex-column gap-5">
         {# Hero Video #}
-        {% set videoEntry = craft.entries().section('heroVideoSection').one %}
-        <iframe src="{{videoEntry.videoHeader}}controls=0&autoplay=1&mute=1&loop=1"></iframe>
+        {% set heroSectionEntries = craft.entries().section('heroVideoSection').one %}
+        <iframe src="{{heroSectionEntries.videoHeader}}controls=0&autoplay=1&mute=1&loop=1"></iframe>
         {# Intro Text Section #}
         <div class="d-flex justify-content-between">
-            <h2>Dit wordt de header text</h2>
-            <div>
-                <p>Some text ...</p>
+            <h2 class="col-3 lh-base">{{heroSectionEntries.sectionHeader}}</h2>
+            <div class="col-4">
+                <p class="lh-lg">{{heroSectionEntries.sectionParagraph}}</p>
                 <a href="https://www.youtube.com/@treesdontneedus" target="_blank"><button type="button" class="btn btn-primary">Watch on YouTube</button></a>
             </div>
         </div>

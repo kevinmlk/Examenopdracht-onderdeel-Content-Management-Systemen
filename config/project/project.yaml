@@ -1,4 +1,4 @@
-dateModified: 1703430961
+dateModified: 1703434174
 email:
   fromEmail: r0900654@student.thomasmore.be
   fromName: 'Support Trees'
@@ -16,14 +16,17 @@ meta:
     6a0b1761-f669-4f5b-85e6-9978bee753d6: 'Trees Assets' # Trees Assets
     12bb8b12-b1a3-4dc4-9109-5fac15f12e83: 'Hero Video Section' # Hero Video Section
     32dec001-f070-461b-8054-983a36b0ef6c: 'Video Header' # Video Header
-    53973bd1-6806-4012-81fa-59993f391e9d: header # header
+    53973bd1-6806-4012-81fa-59993f391e9d: Header # Header
     773026d7-893c-46bb-9217-5e3c6b935c98: 'Support Trees' # Support Trees
     c0d0d5d7-1692-47aa-873c-a2ece8089d43: 'Header Logo Icon' # Header Logo Icon
     c225c914-5b17-456c-962e-5d652d556c82: 'Rich Text' # Rich Text
-    cc39aeb2-6862-411f-a182-99eb82df8806: header # header
+    cc39aeb2-6862-411f-a182-99eb82df8806: Header # Header
+    ddf28a1a-aba0-4630-a818-649e02804c20: 'Section Paragraph' # Section Paragraph
     e7a6fa66-488e-4eec-b245-fafd1fb05c5c: 'Header Logo' # Header Logo
+    e85c4278-feb8-4a9d-b3d8-ee47e782725e: 'Home Hero Section' # Home Hero Section
     ee746d06-a2cd-49ba-8254-f3c9b022431c: 'Support Trees' # Support Trees
     efd20e6b-636c-4c56-bfcb-514a4816314b: Common # Common
+    f817d004-c851-42a2-a118-3b5bb3cf7b80: 'Section Header' # Section Header
     fd513c68-7174-4305-9284-628b1d6e09ae: 'Hero Video Section' # Hero Video Section
 plugins:
   abm-tinymce:

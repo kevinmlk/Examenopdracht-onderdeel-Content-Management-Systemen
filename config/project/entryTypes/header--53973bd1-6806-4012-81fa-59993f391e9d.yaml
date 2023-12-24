@@ -48,8 +48,8 @@ fieldLayouts:
         userCondition: null
 handle: header
 hasTitleField: false
-name: header
-section: cc39aeb2-6862-411f-a182-99eb82df8806 # header
+name: Header
+section: cc39aeb2-6862-411f-a182-99eb82df8806 # Header
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
