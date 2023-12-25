@@ -1,4 +1,4 @@
-dateModified: 1703512245
+dateModified: 1703512721
 email:
   fromEmail: r0900654@student.thomasmore.be
   fromName: 'Support Trees'
@@ -24,6 +24,7 @@ meta:
     17485ac0-9074-461f-acdf-cb0cfcb2cfa4: 'Mature Size (Width)' # Mature Size (Width)
     48306e20-42b6-4b53-9783-daebd209a86d: 'Plant Family' # Plant Family
     53973bd1-6806-4012-81fa-59993f391e9d: Header # Header
+    307986f1-bd25-45e4-9411-b7ca2a298d76: 'Tree Thumbnail' # Tree Thumbnail
     773026d7-893c-46bb-9217-5e3c6b935c98: 'Support Trees' # Support Trees
     aeaeb566-05e0-4d05-97e7-86abeed9f6dc: 'Botanical Name' # Botanical Name
     c0d0d5d7-1692-47aa-873c-a2ece8089d43: 'Header Logo Icon' # Header Logo Icon

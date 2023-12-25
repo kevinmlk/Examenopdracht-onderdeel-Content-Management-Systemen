@@ -30,6 +30,7 @@ a.nav-link {
   color: var(--seasalt);
   font-weight: 500;
   font-size: 1.2em;
+  opacity: .4;
 }
 
 a.nav-link:hover {
