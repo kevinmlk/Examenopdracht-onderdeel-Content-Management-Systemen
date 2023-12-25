@@ -1,0 +1,24 @@
+columnSuffix: ckrgpoga
+contentColumnType: string(4)
+fieldGroup: 24d81c84-bda5-49fb-b1e5-0c1681f48834 # Home Trees Section
+handle: plantType
+instructions: null
+name: 'Plant Type'
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Tree
+        -
+          - value
+          - tree
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

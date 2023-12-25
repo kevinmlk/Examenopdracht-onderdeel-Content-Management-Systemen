@@ -1,0 +1,24 @@
+columnSuffix: mxfxbjjm
+contentColumnType: string(12)
+fieldGroup: 24d81c84-bda5-49fb-b1e5-0c1681f48834 # Home Trees Section
+handle: plantFamily
+instructions: null
+name: 'Plant Family'
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Altingiaceae
+        -
+          - value
+          - altingiaceae
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown
