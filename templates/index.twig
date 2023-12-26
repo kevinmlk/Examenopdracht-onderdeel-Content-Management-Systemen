@@ -2,9 +2,9 @@
 {% extends '_layout.twig' %}
 
 {% block content %}
-<main>
+<main class="container mt-5">
     {# Hero Video Section #}
-    <section class="intro-section container mt-5 d-flex justify-content-center flex-column gap-5">
+    <section class="intro-section d-flex justify-content-center flex-column gap-5">
         {# Hero Video #}
         {% set heroSectionEntries = craft.entries().section('heroVideoSection').one %}
         <iframe src="{{heroSectionEntries.videoHeader}}controls=0&autoplay=1&mute=1&loop=1"></iframe>
@@ -16,6 +16,26 @@
                 <a href="https://www.youtube.com/@treesdontneedus" target="_blank"><button type="button" class="btn btn-primary">Watch on YouTube</button></a>
             </div>
         </div>
+    </section>
+    {# Trees Section #}
+    <section class="mt-5">
+        {% set treesEntries = craft.entries().section('treesSection').limit(3).all() %}
+        {% for treesEntry in treesEntries %}
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                <img src="" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">{{ treesEntry.title }}</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+                </div>s
+            </div>
+        </div>
+        {% endfor %}
     </section>
 </main>
 {% endblock %}
