@@ -35,6 +35,7 @@ a.nav-link {
 
 a.nav-link:hover {
   color: var(--spring-green);
+  opacity: 1;
 }
 
 button.btn {

@@ -31,6 +31,102 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: 307986f1-bd25-45e4-9411-b7ca2a298d76 # Tree Thumbnail
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 576362f5-c6d9-4383-aef7-99c9324fc9b8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 801d5e51-308d-4977-be8b-a35b3fc54d42
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 466e4f97-e850-4f8a-ada1-00d00bd1d164
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: aeaeb566-05e0-4d05-97e7-86abeed9f6dc # Botanical Name
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a3274538-01ef-4451-b8c5-110d27a96e6d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5a06ca47-2772-4c93-8805-3823ef2003c1 # Mature Size (Height)
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f33ed08a-85ab-45df-8a5b-c99acd1e2899
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 17485ac0-9074-461f-acdf-cb0cfcb2cfa4 # Mature Size (Width)
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fcaea553-7dec-42fe-9cfa-5283231c22bd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6d389e7d-4195-4746-8c83-9fca23194a5b # Native Areas
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: feee0f3a-4306-4ce8-9070-3ef7ee79a227
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 48306e20-42b6-4b53-9783-daebd209a86d # Plant Family
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0e5d024c-0ef5-4311-bf6d-caf077a2065d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e77a88ba-1447-4488-81c4-19dc2fb3e638 # Plant Type
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5a0234fc-eaa4-4409-b2bf-2cdd571796fe
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: 6c6103e8-2324-47cb-8ac9-24e9a44bd198
         userCondition: null
