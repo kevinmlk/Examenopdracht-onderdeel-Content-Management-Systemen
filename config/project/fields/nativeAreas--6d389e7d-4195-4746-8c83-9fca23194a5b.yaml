@@ -1,6 +1,6 @@
 columnSuffix: gyvthpud
 contentColumnType: string(12)
-fieldGroup: 24d81c84-bda5-49fb-b1e5-0c1681f48834 # Home Trees Section
+fieldGroup: 24d81c84-bda5-49fb-b1e5-0c1681f48834 # Trees Section
 handle: nativeAreas
 instructions: null
 name: 'Native Areas'
@@ -16,6 +16,17 @@ settings:
         -
           - value
           - northAmerica
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'East Asia'
+        -
+          - value
+          - eastAsia
         -
           - default
           - ''

@@ -1,6 +1,6 @@
 columnSuffix: mxfxbjjm
 contentColumnType: string(12)
-fieldGroup: 24d81c84-bda5-49fb-b1e5-0c1681f48834 # Home Trees Section
+fieldGroup: 24d81c84-bda5-49fb-b1e5-0c1681f48834 # Trees Section
 handle: plantFamily
 instructions: null
 name: 'Plant Family'
@@ -16,6 +16,83 @@ settings:
         -
           - value
           - altingiaceae
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Aceraceae
+        -
+          - value
+          - aceraceae
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Magnoliaceae
+        -
+          - value
+          - magnoliaceae
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Fagaceae
+        -
+          - value
+          - fagaceae
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Bignoniaceae
+        -
+          - value
+          - bignoniaceae
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Betulaceae
+        -
+          - value
+          - betulaceae
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Ulmaceae
+        -
+          - value
+          - ulmaceae
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - Salicaceae
+        -
+          - value
+          - salicaceae
         -
           - default
           - ''
