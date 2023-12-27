@@ -133,7 +133,7 @@ fieldLayouts:
 handle: default
 hasTitleField: true
 name: Default
-section: 892c1859-9d80-45f3-a599-6bc22213995b # Trees Section
+section: 892c1859-9d80-45f3-a599-6bc22213995b # Trees Articles
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

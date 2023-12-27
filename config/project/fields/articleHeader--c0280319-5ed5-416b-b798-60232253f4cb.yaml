@@ -1,9 +1,9 @@
-columnSuffix: rhhinmav
+columnSuffix: hcnnkzye
 contentColumnType: text
-fieldGroup: e85c4278-feb8-4a9d-b3d8-ee47e782725e # Home Hero Section
-handle: sectionParagraph
+fieldGroup: 0c57e405-1b05-4fe5-b3f2-b98c8c86b2fb # About Articles
+handle: articleHeader
 instructions: null
-name: 'Section Paragraph'
+name: 'Article Header'
 searchable: false
 settings:
   byteLimit: null

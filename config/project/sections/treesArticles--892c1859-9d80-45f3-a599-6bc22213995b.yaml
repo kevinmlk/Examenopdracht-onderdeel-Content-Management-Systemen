@@ -1,7 +1,7 @@
 defaultPlacement: end
 enableVersioning: true
-handle: treesSection
-name: 'Trees Section'
+handle: treesArticles
+name: 'Trees Articles'
 propagationMethod: all
 siteSettings:
   ee746d06-a2cd-49ba-8254-f3c9b022431c: # Support Trees

@@ -12,7 +12,7 @@
         <div class="d-flex justify-content-between align-items-center">
             <h2 class="col-3 lh-base">{{heroSectionEntries.sectionHeader}}</h2>
             <div class="col-4">
-                <p class="lh-lg">{{heroSectionEntries.sectionParagraph}}</p>
+                <p class="lh-lg">{{heroSectionEntries.articleParagraph}}</p>
                 <a href="https://www.youtube.com/@treesdontneedus" target="_blank"><button type="button" class="btn btn-primary">Watch on YouTube</button></a>
             </div>
         </div>
@@ -28,7 +28,7 @@
         <div class="glide mt-5 d-flex flex-column">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
-                    {% set treesEntries = craft.entries().section('treesSection').limit(5).all() %}
+                    {% set treesEntries = craft.entries().section('treesArticles').limit(5).all() %}
                     {% for treesEntry in treesEntries %}
                     <li class="glide__slide">
                         <div class="card mb-3" style="max-width: 540px;">
@@ -60,8 +60,8 @@
     {# About Section #}
     <section class="trees-section container mt-5 mb-5 pt-5 pb-5">
         <div class="section-header container d-flex justify-content-between align-items-center pb-4">
-        {# {% set homeSliderSection = craft.entries().section('homeSliderSection').one %} #}
-            <h3>Header 3</h3>
+            {% set homeAbout = craft.entries().section('homeAboutSection').one %}
+            <h3>{{ homeAbout.sectionHeader }}</h3>
             <a href="">Read More</a>
         </div>
         <div>

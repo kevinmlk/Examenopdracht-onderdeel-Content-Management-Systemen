@@ -1,9 +1,9 @@
-columnSuffix: gazybelk
+columnSuffix: rhhinmav
 contentColumnType: text
 fieldGroup: efd20e6b-636c-4c56-bfcb-514a4816314b # Common
-handle: sectionHeader
+handle: articleParagraph
 instructions: null
-name: 'Section Header'
+name: 'Article Paragraph'
 searchable: false
 settings:
   byteLimit: null
@@ -12,7 +12,7 @@ settings:
   columnType: null
   initialRows: 4
   multiline: false
-  placeholder: 'This is a header'
+  placeholder: null
   uiMode: normal
 translationKeyFormat: null
 translationMethod: none
