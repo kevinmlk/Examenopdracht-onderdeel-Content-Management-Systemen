@@ -14,6 +14,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  {# Glide.js Core CSS #}
+  {% do craft.app.view.registerCssFile('@web/css/glide.core.min.css') %}
 </head>
 
 <body>
@@ -38,6 +40,10 @@
   <footer class="container">
       Dit is de footer
   </footer>
-
+{# JS Scripts Links #}
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script>
+ new Glide('.glide').mount()
+</script>
 </body>
 </html>

@@ -19,24 +19,37 @@
     </section>
     {# Trees Section #}
     <section class="mt-5">
-        {% set treesEntries = craft.entries().section('treesSection').limit(5).all() %}
-        {% for treesEntry in treesEntries %}
-        <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-                <div class="col-md-4">
-                <img src="{{ treesEntry.treeThumbnail.one().url('') }}" class="img-fluid rounded-start" alt="...">
-                </div>
-                <div class="col-md-8">
-                <div class="card-body">
-                    <p class="card-text"><small class="text-body-secondary">{{ treesEntry.plantFamily }}</small></p>
-                    <h5 class="card-title">{{treesEntry.botanicalName }}</h5>
-                    <p class="card-text">{{ treesEntry.title }}</p>
-                    <a href="#" class="card-link">Explore More</a>
-                </div>
-                </div>
+        <div class="glide">
+            <div div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    {% set treesEntries = craft.entries().section('treesSection').limit(5).all() %}
+                    {% for treesEntry in treesEntries %}
+                    <li class="glide__slide">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                <img src="{{ treesEntry.treeThumbnail.one().url('') }}" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text"><small class="text-body-secondary">{{ treesEntry.plantFamily }}</small></p>
+                                    <h5 class="card-title">{{treesEntry.botanicalName }}</h5>
+                                    <p class="card-text">{{ treesEntry.title }}</p>
+                                    <a href="#" class="card-link">Explore More</a>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            {# Slider Controles #}
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
             </div>
         </div>
-        {% endfor %}
     </section>
 </main>
 {% endblock %}
