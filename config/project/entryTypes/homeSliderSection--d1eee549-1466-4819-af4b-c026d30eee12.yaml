@@ -1,0 +1,59 @@
+fieldLayouts:
+  cdb06316-0646-471e-b7b3-cc46dc7fe002:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: a655ac14-ca66-4a88-8ce4-7c21a8400edc
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f817d004-c851-42a2-a118-3b5bb3cf7b80 # Section Header
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aff13553-558c-42a1-8f1d-3145cc56a6dc
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: cfae3523-7dd5-4f14-9c4f-309f2f29352a
+        userCondition: null
+handle: homeSliderSection
+hasTitleField: false
+name: 'Home Slider Section'
+section: 3a9d5b49-ea42-4a10-808e-70d2e60cff75 # Home Slider Section
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

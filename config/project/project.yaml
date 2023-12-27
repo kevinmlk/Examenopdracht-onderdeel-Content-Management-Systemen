@@ -1,4 +1,4 @@
-dateModified: 1703620809
+dateModified: 1703701694
 email:
   fromEmail: r0900654@student.thomasmore.be
   fromName: 'Support Trees'
@@ -13,6 +13,7 @@ fs:
     url: '@web/assets'
 meta:
   __names__:
+    3a9d5b49-ea42-4a10-808e-70d2e60cff75: 'Home Slider Section' # Home Slider Section
     5a06ca47-2772-4c93-8805-3823ef2003c1: 'Mature Size (Height)' # Mature Size (Height)
     6a0b1761-f669-4f5b-85e6-9978bee753d6: 'Trees Assets' # Trees Assets
     6d389e7d-4195-4746-8c83-9fca23194a5b: 'Native Areas' # Native Areas
@@ -29,6 +30,7 @@ meta:
     c0d0d5d7-1692-47aa-873c-a2ece8089d43: 'Header Logo Icon' # Header Logo Icon
     c225c914-5b17-456c-962e-5d652d556c82: 'Rich Text' # Rich Text
     cc39aeb2-6862-411f-a182-99eb82df8806: Header # Header
+    d1eee549-1466-4819-af4b-c026d30eee12: 'Home Slider Section' # Home Slider Section
     ddf28a1a-aba0-4630-a818-649e02804c20: 'Section Paragraph' # Section Paragraph
     e7a6fa66-488e-4eec-b245-fafd1fb05c5c: 'Header Logo' # Header Logo
     e77a88ba-1447-4488-81c4-19dc2fb3e638: 'Plant Type' # Plant Type
