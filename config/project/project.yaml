@@ -1,4 +1,4 @@
-dateModified: 1703715290
+dateModified: 1703718830
 email:
   fromEmail: r0900654@student.thomasmore.be
   fromName: 'Support Trees'
@@ -24,6 +24,7 @@ meta:
     24d81c84-bda5-49fb-b1e5-0c1681f48834: 'Trees Section' # Trees Section
     32dec001-f070-461b-8054-983a36b0ef6c: 'Video Header' # Video Header
     892c1859-9d80-45f3-a599-6bc22213995b: 'Trees Articles' # Trees Articles
+    4669bc15-efaa-40ee-9f10-96e7d14650c0: 'Article Media' # Article Media
     17485ac0-9074-461f-acdf-cb0cfcb2cfa4: 'Mature Size (Width)' # Mature Size (Width)
     48306e20-42b6-4b53-9783-daebd209a86d: 'Plant Family' # Plant Family
     53973bd1-6806-4012-81fa-59993f391e9d: Header # Header
@@ -33,7 +34,7 @@ meta:
     a934eed7-50b0-4069-bd63-9ee5af8a4d20: 'Home About Section' # Home About Section
     aeaeb566-05e0-4d05-97e7-86abeed9f6dc: 'Botanical Name' # Botanical Name
     c0d0d5d7-1692-47aa-873c-a2ece8089d43: 'Header Logo Icon' # Header Logo Icon
-    c0280319-5ed5-416b-b798-60232253f4cb: 'Article Header' # Article Header
+    c0280319-5ed5-416b-b798-60232253f4cb: 'Article Intro' # Article Intro
     c225c914-5b17-456c-962e-5d652d556c82: 'Rich Text' # Rich Text
     cc39aeb2-6862-411f-a182-99eb82df8806: Header # Header
     ceb04f13-619f-4eea-869a-041edd83ab8b: 'Article Banner' # Article Banner
@@ -46,7 +47,9 @@ meta:
     efd20e6b-636c-4c56-bfcb-514a4816314b: Common # Common
     f54a0240-381b-4b1e-ad29-1e7570eb8b56: Default # Default
     f817d004-c851-42a2-a118-3b5bb3cf7b80: 'Section Header' # Section Header
+    fba12a27-9527-4c3f-8d75-ff263e05975c: Thumbnail # Thumbnail
     fd513c68-7174-4305-9284-628b1d6e09ae: 'Hero Video Section' # Hero Video Section
+    fdfb4506-ae07-4852-8874-c5a371fc914b: 'Header Image' # Header Image
 plugins:
   abm-tinymce:
     edition: standard

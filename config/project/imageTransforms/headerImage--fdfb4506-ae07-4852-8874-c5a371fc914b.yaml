@@ -1,0 +1,11 @@
+fill: null
+format: null
+handle: headerImage
+height: 400
+interlace: none
+mode: crop
+name: 'Header Image'
+position: center-center
+quality: null
+upscale: true
+width: 1200

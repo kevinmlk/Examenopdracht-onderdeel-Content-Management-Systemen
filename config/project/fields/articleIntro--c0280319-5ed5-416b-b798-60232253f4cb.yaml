@@ -1,0 +1,19 @@
+columnSuffix: hcnnkzye
+contentColumnType: text
+fieldGroup: 0c57e405-1b05-4fe5-b3f2-b98c8c86b2fb # About Articles
+handle: articleIntro
+instructions: null
+name: 'Article Intro'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

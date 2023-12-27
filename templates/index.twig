@@ -34,12 +34,12 @@
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="{{ treesEntry.treeThumbnail.one().url('') }}" class="img-fluid rounded-start" alt="...">
+                                    <img src="{{ treesEntry.treeThumbnail.one().url('thumbnail') }}" class="img-fluid rounded-start" alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
                                         <p class="card-text"><small class="text-body-secondary">{{ treesEntry.plantFamily }}</small></p>
-                                        <h5 class="card-title">{{treesEntry.botanicalName }}</h5>
+                                        <h5 class="card-title">{{ treesEntry.botanicalName }}</h5>
                                         <p class="card-text">{{ treesEntry.title }}</p>
                                         <a href="#" class="card-link">Explore More</a>
                                     </div>
@@ -64,25 +64,19 @@
             <h3>{{ homeAbout.sectionHeader }}</h3>
             <a href="">Read More</a>
         </div>
-        <div>
-            <div>
-                <img src="" />
+        {% set aboutEntries = craft.entries().section('aboutArticles').limit(2).all() %}
+        {% for aboutEntry in aboutEntries %}
+        <div class="d-flex align-items-center justify-content-center gap-5 mt-5">
+            <div class="col-5">
+                <img src="{{ aboutEntry.articleBanner.one().url('articleMedia') }}" />
             </div>
-            <div>
-                <h4>Header 4</h4>
-                <p>Some text...</p>
-            </div>
-        </div>
-
-        <div>
-            <div>
-                <h4>Header 4</h4>
-                <p>Some text...</p>
-            </div>
-            <div>
-                <img src="" />
+            <div class="col-5 d-flex flex-column gap-3">
+                <h4>{{aboutEntry.title}}</h4>
+                <p>{{aboutEntry.articleIntro}}</p>
+                <a href="">Read More</a>
             </div>
         </div>
+        {% endfor %}
     </section>
 </main>
 {% endblock %}
