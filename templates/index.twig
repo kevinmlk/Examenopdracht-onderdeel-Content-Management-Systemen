@@ -4,7 +4,7 @@
 {% block content %}
 <main class="container mt-5">
     {# Hero Video Section #}
-    <section class="intro-section d-flex justify-content-center flex-column gap-5">
+    <section class="intro-section d-flex justify-content-center flex-column gap-5 mt-5 mb-5 pt-5 pb-5">
         {# Hero Video #}
         {% set heroSectionEntries = craft.entries().section('heroVideoSection').one %}
         <iframe src="{{heroSectionEntries.videoHeader}}controls=0&autoplay=1&mute=1&loop=1"></iframe>
@@ -18,8 +18,13 @@
         </div>
     </section>
     {# Trees Section #}
-    <section class="mt-5">
-        <div class="glide">
+    <section class="trees-section mt-5 mb-5 pt-5 pb-5">
+        <div class="section-header d-flex justify-content-between align-items-center pb-4">
+            <h3>This will be the second header</h3>
+            <a href="">Explore more</a>
+        </div>
+        {# Glides Container #}
+        <div class="glide mt-5">
             <div div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
                     {% set treesEntries = craft.entries().section('treesSection').limit(5).all() %}

@@ -104,3 +104,8 @@ section.intro-section iframe {
   font-weight: 600;
   font-size: .9em;
 }
+
+.section-header {
+  border-bottom: 2px solid var(--card-bg);
+
+}
