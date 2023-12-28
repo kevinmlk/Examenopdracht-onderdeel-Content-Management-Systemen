@@ -23,6 +23,10 @@ h2 {
   font-size: 2.8em;
 }
 
+h4 {
+  text-decoration: underline;
+}
+
 header h1 a {
   /* text-transform: uppercase; */
   color: var(--seasalt);

@@ -64,19 +64,21 @@
             <h3>{{ homeAbout.sectionHeader }}</h3>
             <a href="">Read More</a>
         </div>
-        {% set aboutEntries = craft.entries().section('aboutArticles').limit(2).all() %}
-        {% for aboutEntry in aboutEntries %}
-        <div class="d-flex align-items-center justify-content-center mt-5">
-            <div class="col-5">
-                <img src="{{ aboutEntry.articleBanner.one().url('articleMedia') }}" />
+        <div class="d-flex flex-column gap-3">
+            {% set aboutEntries = craft.entries().section('aboutArticles').limit(2).all() %}
+            {% for aboutEntry in aboutEntries %}
+            <div class="d-flex align-items-center justify-content-center mt-5">
+                <div class="col-5">
+                    <img src="{{ aboutEntry.articleBanner.one().url('articleMedia') }}" />
+                </div>
+                <div class="col-5 d-flex flex-column gap-3">
+                    <h4>{{ aboutEntry.title }}</h4>
+                    <p>{{ aboutEntry.articleIntro }}</p>
+                    <a href="">Read More</a>
+                </div>
             </div>
-            <div class="col-5 d-flex flex-column gap-3">
-                <h4>{{ aboutEntry.title }}</h4>
-                <p>{{ aboutEntry.articleIntro }}</p>
-                <a href="">Read More</a>
-            </div>
+            {% endfor %}
         </div>
-        {% endfor %}
     </section>
 </main>
 {% endblock %}
