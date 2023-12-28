@@ -127,3 +127,7 @@ section.intro-section iframe {
 .about-section h5 {
   width: 140px;
 }
+
+footer {
+  border-top: 2px solid var(--card-bg);
+}
