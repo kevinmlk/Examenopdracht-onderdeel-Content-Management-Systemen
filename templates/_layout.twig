@@ -37,7 +37,7 @@
   {# hier komt de content #}
   {% endblock %}
 
-  <footer class="container d-flex flex-column gap-5 mt-5 pt-3">
+  <footer class="container d-flex flex-column gap-5 mt-5 pt-3 mb-4">
       <div class="d-flex gap-5">
         <h3><a href="{{ siteUrl }}">Support Trees</a></h3>
         <nav class="d-flex gap-3">
@@ -49,7 +49,10 @@
           </ul>
         </nav>
       </div>
-      <p>This website is a Academic Project by Kevin Malekera</p>
+      <div class="d-flex justify-content-between align-items-center">
+        <p id="copyright">© Kevin Malekera  |  2nd year XD student  |  Thomas More</p>
+        <a href="https://www.wearexd.be/" target="_blank">#WeAreXD</a>
+      </div>
   </footer>
 {# JS Scripts Links #}
 <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>

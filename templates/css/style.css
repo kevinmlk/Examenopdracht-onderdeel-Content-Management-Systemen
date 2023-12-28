@@ -131,3 +131,8 @@ section.intro-section iframe {
 footer {
   border-top: 2px solid var(--card-bg);
 }
+
+footer #copyright {
+  font-size: .8em;
+  opacity: .6;
+}
