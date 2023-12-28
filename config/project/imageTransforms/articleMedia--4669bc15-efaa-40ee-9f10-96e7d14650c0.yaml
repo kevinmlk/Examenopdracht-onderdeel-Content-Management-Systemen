@@ -1,11 +1,11 @@
 fill: null
 format: null
 handle: articleMedia
-height: 450
+height: 175
 interlace: none
 mode: crop
 name: 'Article Media'
 position: center-center
 quality: null
 upscale: true
-width: 400
+width: 175
