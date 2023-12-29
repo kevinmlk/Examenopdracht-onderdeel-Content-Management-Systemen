@@ -1,7 +1,15 @@
 {% extends '_layout.twig' %}
     
     {% block content %}
-    <section class="container">
+    <nav aria-label="breadcrumb" class="container mt-5 mb-5 pt-5">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ siteUrl }}">Home</a></li>
+        <li class="breadcrumb-item"><a href="{{ siteUrl }}trees">Trees</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ entry.title }}</li>
+      </ol>
+    </nav>
+    
+    <section class="container mt-5 mb-5 pt-5 pb-5">
       <img src="{{ entry.treeThumbnail.one().url('') }}" alt="">
       <h2>{{ entry.title }}</h2>
     </section>

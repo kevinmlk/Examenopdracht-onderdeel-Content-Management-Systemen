@@ -93,6 +93,21 @@ section.intro-section iframe {
   height: 60vh;
 }
 
+.breadcrumb-item a {
+  color: var(--seasalt);
+  text-decoration: none;
+  transition: var(--linear-transition);
+}
+
+.breadcrumb-item a:hover {
+  color: var(--spring-green);
+  transition: var(--linear-transition);
+}
+
+.breadcrumb-item.active {
+  color: var(--dartmouth-green);
+}
+
 .card {
   background-color: var(--card-bg);
   color: var(--seasalt);
