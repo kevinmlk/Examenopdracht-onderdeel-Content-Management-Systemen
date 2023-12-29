@@ -45,18 +45,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 801d5e51-308d-4977-be8b-a35b3fc54d42
-            instructions: null
-            label: null
-            required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 466e4f97-e850-4f8a-ada1-00d00bd1d164
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: aeaeb566-05e0-4d05-97e7-86abeed9f6dc # Botanical Name
             instructions: null
             label: null
@@ -124,6 +112,30 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 5a0234fc-eaa4-4409-b2bf-2cdd571796fe
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5c03b3bc-95e7-4886-835d-8d4e701ecea0 # Tree Intro Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c1c3d903-2edc-4496-bd5b-4610bc84d706
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: de88e656-e02f-4c55-9423-6f2387493325 # TreeArticle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4aeb7995-6d92-42d9-a0d1-544dda1a0762
             userCondition: null
             warning: null
             width: 100

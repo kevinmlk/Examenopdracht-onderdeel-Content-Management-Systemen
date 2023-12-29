@@ -1,11 +1,11 @@
 fill: null
 format: null
-handle: headerImage
-height: 400
+handle: treeLargeThumbnail
+height: 500
 interlace: none
 mode: crop
-name: 'Header Image'
+name: 'Tree Large Thumbnail'
 position: center-center
 quality: null
 upscale: true
-width: 100
+width: 500
