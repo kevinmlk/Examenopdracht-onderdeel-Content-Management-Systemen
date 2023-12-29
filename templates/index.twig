@@ -7,12 +7,12 @@
     <section class="intro-section container d-flex justify-content-center flex-column gap-5 mt-5 mb-5 pb-5">
         {# Hero Video #}
         {% set heroSectionEntries = craft.entries().section('heroVideoSection').one %}
-        <iframe src="{{heroSectionEntries.videoHeader}}controls=0&autoplay=1&mute=1&loop=1"></iframe>
+        <iframe src="{{ heroSectionEntries.videoHeader }}controls=0&autoplay=1&mute=1&loop=1"></iframe>
         {# Intro Text Section #}
         <div class="d-flex justify-content-between align-items-center">
-            <h2 class="col-3 lh-base">{{heroSectionEntries.sectionHeader}}</h2>
+            <h2 class="col-3 lh-base">{{ heroSectionEntries.sectionHeader }}</h2>
             <div class="col-4">
-                <p class="lh-lg">{{heroSectionEntries.articleParagraph}}</p>
+                <p class="lh-lg">{{ heroSectionEntries.articleParagraph }}</p>
                 <a href="https://www.youtube.com/@treesdontneedus" target="_blank"><button type="button" class="btn btn-primary">Watch on YouTube</button></a>
             </div>
         </div>
@@ -22,7 +22,7 @@
         <div class="section-header container d-flex justify-content-between align-items-center pb-4">
         {% set homeSliderSection = craft.entries().section('homeSliderSection').one %}
             <h3>{{ homeSliderSection.sectionHeader }}</h3>
-            <a href="">All trees</a>
+            <a href="{{ siteUrl }}trees">All trees</a>
         </div>
         {# Glides Container #}
         <div class="glide mt-5 d-flex flex-column">
@@ -41,7 +41,7 @@
                                         <p class="card-text"><small class="text-body-secondary">{{ treesEntry.plantFamily }}</small></p>
                                         <h5 class="card-title">{{ treesEntry.botanicalName }}</h5>
                                         <p class="card-text">{{ treesEntry.title }}</p>
-                                        <a href="{{treesEntry.url}}" class="card-link">Explore More</a>
+                                        <a href="{{ treesEntry.url }}" class="card-link">Explore More</a>
                                     </div>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@
             {% endfor %}
         </div>
     </section>
-
+    {# Instagram Feed #}
     <section>
     {# fetch account specified in settings #}
     {% set items = craft.instagram.getFeed() %}
