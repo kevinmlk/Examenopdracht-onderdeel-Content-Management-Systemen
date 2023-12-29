@@ -155,6 +155,11 @@ section.intro-section iframe {
   height: 320px;
 }
 
+.list-group-item {
+  background-color: var(--card-bg);
+  color: var(--seasalt);
+}
+
 footer {
   border-top: 2px solid var(--card-bg);
 }

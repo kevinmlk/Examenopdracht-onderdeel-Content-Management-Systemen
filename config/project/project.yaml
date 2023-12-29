@@ -1,4 +1,4 @@
-dateModified: 1703886665
+dateModified: 1703891809
 email:
   fromEmail: r0900654@student.thomasmore.be
   fromName: 'Support Trees'
@@ -22,6 +22,7 @@ meta:
     6a0b1761-f669-4f5b-85e6-9978bee753d6: 'Trees Assets' # Trees Assets
     6d389e7d-4195-4746-8c83-9fca23194a5b: 'Native Areas' # Native Areas
     6da48a5d-6d62-46f6-b67c-34afb4915a05: 'Article Topic' # Article Topic
+    6f63a5c4-3993-4304-b68d-3e584c6c7efc: 'Tree Link' # Tree Link
     8f7d83f9-7382-4988-a48f-77f451ff7d08: 'Tree Large Thumbnail' # Tree Large Thumbnail
     9db6f2dc-5ee6-4f87-a572-3fe14af8ba1f: 'About Articles' # About Articles
     9dcd4f87-4e17-47e0-83e2-5fbabaa86d30: 'Detail Header' # Detail Header

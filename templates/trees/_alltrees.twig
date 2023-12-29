@@ -24,13 +24,13 @@
             <p class="card-text">{{ treesEntry.treeIntroText }}</p>
           </div>
           <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            <li class="list-group-item">A second item</li>
-            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">Botincal name: {{ treesEntry.botanicalName }}</li>
+            <li class="list-group-item">Native area: {{ treesEntry.nativeAreas.label }}</li>
+            <li class="list-group-item">Plant family: {{ treesEntry.plantFamily }}</li>
           </ul>
           <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
+            <a href="{{ treesEntry.Url }}" class="card-link">More</a>
+            <a href="#" class="card-link">Shop</a>
           </div>
         </div>
       </div>

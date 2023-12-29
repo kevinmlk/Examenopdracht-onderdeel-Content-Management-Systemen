@@ -139,6 +139,18 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            elementCondition: null
+            fieldUid: 6f63a5c4-3993-4304-b68d-3e584c6c7efc # Tree Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 73da3bfd-d268-4823-8ea5-e2eb3dceedc7
+            userCondition: null
+            warning: null
+            width: 100
         name: Content
         uid: 6c6103e8-2324-47cb-8ac9-24e9a44bd198
         userCondition: null
