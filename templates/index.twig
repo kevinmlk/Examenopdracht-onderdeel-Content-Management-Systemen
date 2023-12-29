@@ -81,5 +81,20 @@
             {% endfor %}
         </div>
     </section>
+
+    <section>
+    {# fetch account specified in settings #}
+    {% set items = craft.instagram.getFeed() %}
+
+    {% for item in items %}
+    <a href="https://www.instagram.com/p/{{ item.shortcode }}/" target="_blank" rel="noopener noreferrer">
+    <img src="{{ item.thumbnail }}" alt="" />
+    </a>
+    <p>{{ item.caption }}</p>
+    <p>{{ item.likes }} Likes / {{ item.comments }} Comments</p>
+    {% endfor %}
+
+
+  </section>
 </main>
 {% endblock %}

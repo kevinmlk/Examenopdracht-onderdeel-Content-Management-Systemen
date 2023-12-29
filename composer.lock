@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a2acf26b7bc9aad616f667ec1ab71ef7",
+    "content-hash": "d6a8639c92583d08851b5fd7b5840259",
     "packages": [
         {
             "name": "abmat/craft-tinymce",
@@ -94,6 +94,54 @@
                 "markdown-extra"
             ],
             "time": "2018-03-26T11:24:36+00:00"
+        },
+        {
+            "name": "codemonauts/craft-instagram-feed",
+            "version": "2.1.0",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codemonauts/craft-instagram-feed/zipball/fd79158917d2aafc75be9bebceef163576b10cef",
+                "reference": "fd79158917d2aafc75be9bebceef163576b10cef",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "ext-json": "*"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "handle": "instagramfeed",
+                "class": "codemonauts\\instagramfeed\\InstagramFeed",
+                "name": "Instagram Feed"
+            },
+            "autoload": {
+                "psr-4": {
+                    "codemonauts\\instagramfeed\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "codemonauts",
+                    "homepage": "https://codemonauts.com"
+                }
+            ],
+            "description": "Craft CMS plugin to receive Instagram feed data as variable in templates.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "instagram"
+            ],
+            "support": {
+                "source": "https://github.com/codemonauts/craft-instagram-feed",
+                "docs": "https://plugins.codemonauts.com/plugins/instagramfeed/Introduction.html",
+                "issues": "https://github.com/codemonauts/craft-instagram-feed/issues"
+            },
+            "time": "2022-10-21T15:28:00+00:00"
         },
         {
             "name": "commerceguys/addressing",

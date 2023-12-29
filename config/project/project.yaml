@@ -1,4 +1,4 @@
-dateModified: 1703799494
+dateModified: 1703811044
 email:
   fromEmail: r0900654@student.thomasmore.be
   fromName: 'Support Trees'
@@ -33,6 +33,7 @@ meta:
     307986f1-bd25-45e4-9411-b7ca2a298d76: 'Tree Thumbnail' # Tree Thumbnail
     773026d7-893c-46bb-9217-5e3c6b935c98: 'Support Trees' # Support Trees
     a934eed7-50b0-4069-bd63-9ee5af8a4d20: 'Home About Section' # Home About Section
+    ab37d1cc-b11f-4ebd-8c13-0a398effc77d: 'Insta Feed Section' # Insta Feed Section
     aeaeb566-05e0-4d05-97e7-86abeed9f6dc: 'Botanical Name' # Botanical Name
     c0d0d5d7-1692-47aa-873c-a2ece8089d43: 'Header Logo Icon' # Header Logo Icon
     c0280319-5ed5-416b-b798-60232253f4cb: 'Article Intro' # Article Intro
@@ -40,6 +41,7 @@ meta:
     cc39aeb2-6862-411f-a182-99eb82df8806: Header # Header
     ceb04f13-619f-4eea-869a-041edd83ab8b: 'Article Banner' # Article Banner
     d1eee549-1466-4819-af4b-c026d30eee12: 'Home Slider Section' # Home Slider Section
+    d3e33c15-1b62-4cfb-bc23-5afa9a2a73cb: 'Insta Feed Section' # Insta Feed Section
     ddf28a1a-aba0-4630-a818-649e02804c20: 'Article Paragraph' # Article Paragraph
     e7a6fa66-488e-4eec-b245-fafd1fb05c5c: 'Header Logo' # Header Logo
     e77a88ba-1447-4488-81c4-19dc2fb3e638: 'Plant Type' # Plant Type
@@ -56,6 +58,19 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  instagramfeed:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      dump: false
+      instagramUser: supporttrees
+      proxyKey: ''
+      subpath: ''
+      timeout: 10
+      useProxy: false
+      useVolume: false
+      volume: treesAssets
   oembed:
     edition: standard
     enabled: true

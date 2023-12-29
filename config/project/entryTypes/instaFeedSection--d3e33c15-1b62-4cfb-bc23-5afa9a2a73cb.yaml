@@ -1,0 +1,59 @@
+fieldLayouts:
+  cb17a29d-0de6-48c3-9132-1a3be6e8b65a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 88cbb9bc-a6c6-4ce3-8ec2-5dec6c19b918
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f817d004-c851-42a2-a118-3b5bb3cf7b80 # Section Header
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3cc859eb-42dc-4b28-9ba6-308fbb920d62
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d195f4f1-7a51-45e9-8a28-355c33004a4f
+        userCondition: null
+handle: instaFeedSection
+hasTitleField: false
+name: 'Insta Feed Section'
+section: ab37d1cc-b11f-4ebd-8c13-0a398effc77d # Insta Feed Section
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
