@@ -1,0 +1,8 @@
+{% extends '_layout.twig' %}
+    
+    {% block content %}
+    <section class="container">
+      <img src="{{ entry.treeThumbnail.one().url('') }}" alt="">
+      <h2>{{ entry.title }}</h2>
+    </section>
+    {% endblock %}
