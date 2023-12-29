@@ -1,0 +1,52 @@
+{% extends '_layout.twig' %}
+{% block content %}
+
+  {# Breadcrumbs Navigation #}
+  <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" class="container mt-5 mb-5">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{{ siteUrl }}">Home</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Trees</li>
+    </ol>
+  </nav>
+  {# Trees Section #}
+    <section class="trees-section mt-5 mb-5 pt-5 pb-5">
+        <div class="section-header container d-flex justify-content-between align-items-center pb-4">
+        {% set homeSliderSection = craft.entries().section('homeSliderSection').one %}
+            <h3>{{ homeSliderSection.sectionHeader }}</h3>
+            <a href="">All trees</a>
+        </div>
+        {# Glides Container #}
+        <div class="glide mt-5 d-flex flex-column">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                {% set treesEntries = craft.entries().section('treesArticles').limit(5).all() %}
+                {% for treesEntry in treesEntries %}
+                <li class="glide__slide">
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                          <img src="{{ treesEntry.treeThumbnail.one().url('thumbnail') }}" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-text"><small class="text-body-secondary">{{ treesEntry.plantFamily }}</small></p>
+                            <h5 class="card-title">{{ treesEntry.botanicalName }}</h5>
+                            <p class="card-text">{{ treesEntry.title }}</p>
+                            <a href="{{treesEntry.url}}" class="card-link">Explore More</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                {% endfor %}
+            </ul>
+          </div>
+          {# Slider Controles #}
+          <div class="glide__arrows d-flex gap-3 align-self-center mt-5" data-glide-el="controls">
+              <button class="glide__arrow glide__arrow--left btn btn-primary btn-sm" data-glide-dir="<">prev</button>
+              <button class="glide__arrow glide__arrow--right btn btn-secondary btn-sm" data-glide-dir=">">next</button>
+          </div>
+      </div>
+    </section>
+
+{% endblock %}
