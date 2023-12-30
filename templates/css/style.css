@@ -29,6 +29,10 @@ h5 {
   opacity: .6;
 }
 
+h6 {
+  color: var(--dartmouth-green);
+}
+
 b {
   color: var(--dartmouth-green);
 }

@@ -15,7 +15,7 @@
     {# Tree Section #}
     <section class="container d-flex gap-5 mt-5 mb-5 pt-5 pb-5">
       <img src="{{ entry.treeThumbnail.one().url('treeLargeThumbnail') }}" alt="{{ entry.title }}">
-      <div class="d-flex flex-column justify-content-center gap-3">
+      <div class="d-flex flex-column gap-3">
         <h2>{{ entry.title }}</h2>
         <p>{{ entry.treeIntroText }}</p>
         <h4>Tree information:</h4>
@@ -27,6 +27,53 @@
           <li class="list-group-item"><b>Native areas:</b> {{ entry.nativeAreas.label }}</li>
           <li class="list-group-item"><b>Plant type:</b> {{ entry.plantType }}</li>
         </ul>
+        <a href="{{ entry.treeLink }}" target="_blank" class="mt-5"><button type="button" class="btn btn-primary">Shop the tree</button></a>
       </div>
+    </section>
+    {# Trees Personality Section #}
+    <section class="container">
+    <h3>Additional information</h3>
+      <div class="card mt-4">
+        <div class="card-body">
+            {{ entry.treeArticle }}
+        </div>
+      </div>
+    </section>
+    {# Trees Section #}
+    <section class="trees-section mt-5 mb-5 pt-5 pb-5">
+        <div class="section-header container d-flex justify-content-between align-items-center pb-4">
+        {% set homeSliderSection = craft.entries().section('homeSliderSection').one %}
+            <h3>{{ homeSliderSection.sectionHeader }}</h3>
+            <a href="{{ siteUrl }}trees">All trees</a>
+        </div>
+        {# Glides Container #}
+        <div class="glide mt-5 d-flex flex-column">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <div class="card mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="{{ entry.treeThumbnail.one().url('thumbnail') }}" class="img-fluid rounded-start" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <p class="card-text"><small class="text-body-secondary">{{ entry.plantFamily }}</small></p>
+                                        <h5 class="card-title">{{ entry.botanicalName }}</h5>
+                                        <p class="card-text">{{ entry.title }}</p>
+                                        <a href="{{ entry.url }}" class="card-link">Explore More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            {# Slider Controles #}
+            <div class="glide__arrows d-flex gap-3 align-self-center mt-5" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left btn btn-primary btn-sm" data-glide-dir="<">prev</button>
+                <button class="glide__arrow glide__arrow--right btn btn-secondary btn-sm" data-glide-dir=">">next</button>
+            </div>
+        </div>
     </section>
     {% endblock %}
