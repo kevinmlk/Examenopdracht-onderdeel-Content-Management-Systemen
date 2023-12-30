@@ -14,10 +14,19 @@
     </nav>
     {# Tree Section #}
     <section class="container d-flex gap-5 mt-5 mb-5 pt-5 pb-5">
-      <img src="{{ entry.treeThumbnail.one().url('treeLargeThumbnail') }}" alt="">
-      <div class="d-flex flex-column gap-3">
-        <h3>{{ entry.title }}</h3>
+      <img src="{{ entry.treeThumbnail.one().url('treeLargeThumbnail') }}" alt="{{ entry.title }}">
+      <div class="d-flex flex-column justify-content-center gap-3">
+        <h2>{{ entry.title }}</h2>
         <p>{{ entry.treeIntroText }}</p>
+        <h4>Tree information:</h4>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><b>Botincal name:</b> {{ entry.botanicalName }}</li>
+          <li class="list-group-item"><b>Plant family:</b> {{ entry.plantFamily }}</li>
+          <li class="list-group-item"><b>Height:</b> {{ entry.matureSizeHeight }}</li>
+          <li class="list-group-item"><b>Width:</b> {{ entry.matureSizeWidth }}</li>
+          <li class="list-group-item"><b>Native areas:</b> {{ entry.nativeAreas.label }}</li>
+          <li class="list-group-item"><b>Plant type:</b> {{ entry.plantType }}</li>
+        </ul>
       </div>
     </section>
     {% endblock %}

@@ -23,14 +23,14 @@ h2 {
   font-size: 2.8em;
 }
 
-h4 {
-  text-decoration: underline;
-}
-
 h5 {
   margin-bottom: 0;
   margin-top: .25rem;
   opacity: .6;
+}
+
+b {
+  color: var(--dartmouth-green);
 }
 
 header h1 a {
