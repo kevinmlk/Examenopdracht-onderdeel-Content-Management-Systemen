@@ -50,23 +50,26 @@
         <div class="glide mt-5 d-flex flex-column">
             <div class="glide__track" data-glide-el="track">
                 <ul class="glide__slides">
+                    {% set treesEntries = craft.entries().section('treesArticles').limit(5).all() %}
+                    {% for treesEntry in treesEntries %}
                     <li class="glide__slide">
                         <div class="card mb-3" style="max-width: 540px;">
                             <div class="row g-0">
                                 <div class="col-md-4">
-                                    <img src="{{ entry.treeThumbnail.one().url('thumbnail') }}" class="img-fluid rounded-start" alt="...">
+                                    <img src="{{ treesEntry.treeThumbnail.one().url('thumbnail') }}" class="img-fluid rounded-start" alt="...">
                                 </div>
                                 <div class="col-md-8">
                                     <div class="card-body">
-                                        <p class="card-text"><small class="text-body-secondary">{{ entry.plantFamily }}</small></p>
-                                        <h5 class="card-title">{{ entry.botanicalName }}</h5>
-                                        <p class="card-text">{{ entry.title }}</p>
-                                        <a href="{{ entry.url }}" class="card-link">Explore More</a>
+                                        <p class="card-text"><small class="text-body-secondary">{{ treesEntry.plantFamily }}</small></p>
+                                        <h5 class="card-title">{{ treesEntry.botanicalName }}</h5>
+                                        <p class="card-text">{{ treesEntry.title }}</p>
+                                        <a href="{{ treesEntry.url }}" class="card-link">Explore More</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </li>
+                    {% endfor %}
                 </ul>
             </div>
             {# Slider Controles #}
