@@ -1,8 +1,8 @@
 {
   "require": {
     "abmat/craft-tinymce": "1.0.5",
-    "codemonauts/craft-instagram-feed": "2.1.0",
-    "craftcms/cms": "^4.4.0",
+    "codemonauts/craft-instagram-feed": "2.2.0",
+    "craftcms/cms": "4.5.14",
     "vlucas/phpdotenv": "^5.4.0",
     "wrav/oembed": "3.0.7"
   },

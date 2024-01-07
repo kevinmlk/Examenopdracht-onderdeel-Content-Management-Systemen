@@ -153,10 +153,15 @@ section.intro-section iframe {
   background-size: cover;
 } */
 
-.header-bg-image {
-  background-image: url('../header-bg.jpg');
+.hero-image {
   background-size: cover;
-  height: 320px;
+  background-position: center;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
 }
 
 .list-group-item {
