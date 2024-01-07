@@ -1,4 +1,4 @@
-dateModified: 1704652136
+dateModified: 1704660177
 email:
   fromEmail: r0900654@student.thomasmore.be
   fromName: 'Support Trees'
@@ -63,6 +63,10 @@ meta:
     fdfb4506-ae07-4852-8874-c5a371fc914b: 'Header Image' # Header Image
 plugins:
   abm-tinymce:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  element-api:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
