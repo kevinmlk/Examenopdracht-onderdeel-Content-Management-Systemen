@@ -147,21 +147,16 @@ section.intro-section iframe {
   width: 140px;
 }
 
-/* .header-bg-image img {
-  width: 100%;
-  height: 320px;
-  background-size: cover;
-} */
-
-.hero-image {
-  background-size: cover;
-  background-position: center;
+.hero-image-container {
+  background: black;
+  overflow: hidden;
 }
 
 .hero-image img {
   width: 100%;
-  height: 400px;
+  height: 320px;
   object-fit: cover;
+  opacity: 0.4;
 }
 
 .list-group-item {

@@ -1,4 +1,7 @@
-<div class="hero-image mt-5">
+<div class="hero-image mt-5 position-relative">
+  <h2 class="position-absolute top-50 start-50 translate-middle">Catalogus</h2>
+  <div class="hero-image-container">
   {% set heroHeaderEntry = craft.entries().section('detailHeader').one %}
   <img src="{{ heroHeaderEntry.headerDetailPage.one().url('') }}" alt="{{ heroHeaderEntry.title }}"/>
+  </div>
 </div>
