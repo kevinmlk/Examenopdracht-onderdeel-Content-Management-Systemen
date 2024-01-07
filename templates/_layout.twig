@@ -37,21 +37,21 @@
   {# hier komt de content #}
   {% endblock %}
 
-  <footer class="container d-flex flex-column gap-5 mt-5 pt-3 mb-4">
+  <footer class="container d-flex flex-column gap-5 mt-5 pt-5 mb-5">
       <div class="d-flex gap-5">
-        <h3><a href="{{ siteUrl }}">Support Trees</a></h3>
+        <h3><a href="{{ siteUrl }}" class="link-underline-success">Support Trees</a></h3>
         <nav class="d-flex gap-3">
           <ul id="nav-menu" class="nav">
-            <li class="nav-item"><a href="{{siteUrl}}trees" class="nav-link">Trees</a></li>
-            <li class="nav-item"><a href="{{siteUrl}}about" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="{{siteUrl}}inspire" class="nav-link">Inspire</a></li>
+            <li class="nav-item"><a href="{{ siteUrl }}trees" class="nav-link">Trees</a></li>
+            <li class="nav-item"><a href="{{ siteUrl }}about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="{{ siteUrl }}inspire" class="nav-link">Inspire</a></li>
             <li class="nav-item"><a href="https://www.arborday.org/" class="nav-link" target="_blank">Donate</a></li>
           </ul>
         </nav>
       </div>
       <div class="d-flex justify-content-between align-items-center">
-        <p id="copyright">© Kevin Malekera  |  2nd year XD student  |  Thomas More</p>
-        <a href="https://www.wearexd.be/" target="_blank">#WeAreXD</a>
+        <p id="copyright">© <a href="https://kevinmalekera.be/" target="_blank" class="footer-link">Kevin Malekera</a>  |  2nd year XD student  |  <a href="https://thomasmore.be/nl" target="_blank" class="footer-link">Thomas More</a></p>
+        <a href="https://www.wearexd.be/" target="_blank" id="XD-link" class="footer-link">#WeAreXD</a>
       </div>
   </footer>
 {# JS Scripts Links #}

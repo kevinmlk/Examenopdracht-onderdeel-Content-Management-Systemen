@@ -26,7 +26,7 @@
         <div class="section-header container d-flex justify-content-between align-items-center pb-4">
             {% set homeAbout = craft.entries().section('homeAboutSection').one %}
             <h3>{{ homeAbout.sectionHeader }}</h3>
-            <a href="">Read More</a>
+            <a href="{{ siteUrl }}about" class="section-header-link">Read More</a>
         </div>
         <div class="d-flex flex-column gap-3">
             {% set aboutEntries = craft.entries().section('aboutArticles').limit(2).all() %}
@@ -36,7 +36,7 @@
                 <div class="about-article-content d-flex flex-column gap-3">
                     <h4>{{ aboutEntry.title }}</h4>
                     <p>{{ aboutEntry.articleIntro }}</p>
-                    <a href="">Read More</a>
+                    <a href="{{ aboutEntry.url }}" class="default-link">Read More</a>
                 </div>
                 <div class="d-flex justify-content-end">
                     <img src="{{ aboutEntry.articleBanner.one().url('articleMedia') }}" />
