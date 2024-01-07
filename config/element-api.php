@@ -5,12 +5,10 @@ use craft\helpers\UrlHelper;
 
 return [
     'endpoints' => [
-        // Aanpassen naar /api/news
-        '/api/news' => function() {
+        '/api/trees' => function() {
             return [
                 'elementType' => Entry::class,
-                // Indien nodig, pas de section naam uit
-                'criteria' => ['section' => 'trees'],
+                'criteria' => ['section' => 'treesArticles'],
                 'cache' => false,
                 'serializer' => 'jsonFeed',
                 'transformer' => function(Entry $entry) {
@@ -19,15 +17,14 @@ return [
                         'title' => $entry->title,
                         'treeThumbnail' => str_replace('https', 'http', $entry->treeThumbnail->one()->getUrl('treeMediumThumbnail')),
                         'botanicalName' => $entry->botanicalName,
-                        'nativeAreas' => $entry->nativeAreas,
-                        'plantFamily' => $entry->plantFamily,
+                        'nativeAreas' => $entry->nativeAreas->label,
+                        'plantFamily' => $entry->plantFamily->label,
                         'introText' => $entry->treeIntroText,
                     ];
                 },
             ];
         },
-        // /Api/news toevoegen
-        '/api/news/<entryId:\d+>' => function($entryId) {
+        '/api/trees/<entryId:\d+>' => function($entryId) {
             return [
                 'elementType' => Entry::class,
                 'criteria' => ['id' => $entryId],
@@ -42,9 +39,9 @@ return [
                         'botanicalName' => $entry->botanicalName,
                         'treeHeight' => $entry->matureSizeHeight,
                         'treeWidth' => $entry->matureSizeWidth,
-                        'nativeAreas' => $entry->nativeAreas,
-                        'plantFamily' => $entry->plantFamily,
-                        'plantType' => $entry->plantType,
+                        'nativeAreas' => $entry->nativeAreas->label,
+                        'plantFamily' => $entry->plantFamily->label,
+                        'plantType' => $entry->plantType->label,
                         'introText' => $entry->treeIntroText,
                         'treeArticle' => $entry->treeArticle,
                         'shopLink' => $entry->treeLink,
