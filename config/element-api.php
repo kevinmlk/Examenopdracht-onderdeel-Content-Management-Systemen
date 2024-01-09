@@ -43,7 +43,7 @@ return [
                         'plantFamily' => $entry->plantFamily->label,
                         'plantType' => $entry->plantType->label,
                         'introText' => $entry->treeIntroText,
-                        'treeArticle' => $entry->treeArticle,
+                        // 'treeArticle' => $entry->treeArticle,
                         'shopLink' => $entry->treeLink,
                     ];
                 },
