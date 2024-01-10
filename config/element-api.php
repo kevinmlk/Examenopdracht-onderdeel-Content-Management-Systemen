@@ -20,6 +20,7 @@ return [
                         'nativeAreas' => $entry->nativeAreas->label,
                         'plantFamily' => $entry->plantFamily->label,
                         'introText' => $entry->treeIntroText,
+                        'treeLink' => $entry->treeLink,
                     ];
                 },
             ];
@@ -44,7 +45,7 @@ return [
                         'plantType' => $entry->plantType->label,
                         'introText' => $entry->treeIntroText,
                         // 'treeArticle' => $entry->treeArticle,
-                        'shopLink' => $entry->treeLink,
+                        'treeLink' => $entry->treeLink,
                     ];
                 },
             ];
