@@ -1,10 +1,8 @@
 {% extends '_layout.twig' %}
     
   {% block content %}
-  {# Include Hero Image Header #}
-  {% include 'includes/_hero-image.twig' %}
 
-  {# Breadcrumbs Navigation #}
+  {# Breadcrumbs navigation #}
   <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" class="container mt-5 mb-5">
     <ol class="breadcrumb">
       <li class="breadcrumb-item"><a href="{{ siteUrl }}">Home</a></li>
@@ -12,7 +10,7 @@
       <li class="breadcrumb-item active" aria-current="page">{{ entry.title }}</li>
     </ol>
   </nav>
-  {# Tree Section #}
+  {# Tree section #}
   <section class="container d-flex gap-5 mt-5 mb-5 pt-5 pb-5">
     <img src="{{ entry.treeThumbnail.one().url('treeLargeThumbnail') }}" alt="{{ entry.title }}">
     <div class="d-flex flex-column gap-3">
@@ -30,7 +28,7 @@
       <a href="{{ entry.treeLink }}" target="_blank" class="mt-5"><button type="button" class="btn btn-primary">Shop the tree</button></a>
     </div>
   </section>
-  {# Trees Personality Section #}
+  {# Trees personality section #}
   <section class="container">
   <h3>Additional information</h3>
     <div class="card mt-4">
@@ -40,8 +38,7 @@
     </div>
   </section>
 
-  {# Trees Slider Section #}
-  {% include 'includes/_slider.twig' with {
-      tipText: 'I’m a helpful tip!'
-  } %}
+  {# Trees slider section #}
+  {% include 'includes/_slider.twig' %}
+  
   {% endblock %}

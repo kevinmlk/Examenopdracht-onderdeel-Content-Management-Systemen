@@ -1,9 +1,8 @@
-{# Neemt de rest van _layout over #}
 {% extends '_layout.twig' %}
 
 {% block content %}
 <main class="mt-5">
-  {# About Section #}
+  {# About section #}
   <section class="about-section container mt-5 mb-5 pt-5 pb-5 d-flex flex-column gap-5">
     {% set aboutEntries = craft.entries().section('aboutArticles').limit(2).all() %}
     {% for aboutEntry in aboutEntries %}

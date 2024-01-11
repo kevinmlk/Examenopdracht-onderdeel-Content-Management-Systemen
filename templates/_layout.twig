@@ -10,7 +10,7 @@
   {% do craft.app.view.registerCssFile('@web/bootstrap/css/bootstrap.min.css') %}
   {# Style CSS #}
   {% do craft.app.view.registerCssFile('@web/css/style.css?12345') %}
-  {# Google Fonts #}
+  {# Google fonts #}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -20,8 +20,6 @@
 
 <body>
   <header class="container d-flex justify-content-between mt-5">
-    {# {% set header = craft.entries().section('header').one() %}
-    <img src="{{header.headerLogo.one().url('headerLogoIcon')}}"/> #}
     <h1><a href="{{siteUrl}}" class="link-underline-success">Support Trees</a></h1>
     <nav class="d-flex gap-3 align-items-center">
       <ul id="nav-menu" class="nav justify-content-end">
@@ -34,7 +32,7 @@
   </header>
 
   {% block content %}
-  {# hier komt de content #}
+  {# Here comses the content #}
   {% endblock %}
 
   <footer class="container d-flex flex-column gap-5 mt-5 pt-5 mb-5">
@@ -54,7 +52,7 @@
         <a href="https://www.wearexd.be/" target="_blank" id="XD-link" class="footer-link">#WeAreXD</a>
       </div>
   </footer>
-{# JS Scripts Links #}
+{# JS script links #}
 <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
 <script>
   const config = {
