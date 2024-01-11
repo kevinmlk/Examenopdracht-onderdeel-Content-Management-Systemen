@@ -187,6 +187,11 @@ button.btn-primary:hover {
   width: 140px;
 }
 
+.article-media img {
+  width: 175px;
+  height: 175px;
+}
+
 .hero-image-container {
   background: black;
   overflow: hidden;
