@@ -6,12 +6,12 @@
   <section class="about-section container mt-5 mb-5 pt-5 pb-5 d-flex flex-column gap-5">
     {% set aboutEntries = craft.entries().section('aboutArticles').limit(2).all() %}
     {% for aboutEntry in aboutEntries %}
-    <article id="{{aboutEntry.articleTopic}}" class="d-flex flex-column gap-3 align-items-center">
-        <div class="">
+    <article id="{{aboutEntry.articleTopic}}" class="d-flex flex-column gap-3 align-items-center mb-5">
+        <div class="about-article-banner">
             <img src="{{ aboutEntry.articleBanner.one().url('largeImageBanner') }}" />
         </div>
-        <h3 class="text-decoration-underline">{{ aboutEntry.title }}</h3>
-        <h6 class="">{{ aboutEntry.articleTopic }}</h6>
+        <h3 class="text-decoration-underline mt-2">{{ aboutEntry.title }}</h3>
+        <h6>{{ aboutEntry.articleTopic }}</h6>
         <div class="about-article-content d-flex flex-column gap-3 text-center">
             <p>{{ aboutEntry.articleParagraph }}</p>
         </div>
