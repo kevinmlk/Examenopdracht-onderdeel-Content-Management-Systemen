@@ -4,28 +4,20 @@
 {% block content %}
 <main class="mt-5">
   {# About Section #}
-  <section class="about-section container mt-5 mb-5 pt-5 pb-5">
-      <div class="section-header container d-flex justify-content-between align-items-center pb-4">
-          {% set homeAbout = craft.entries().section('homeAboutSection').one %}
-          <h3>{{ homeAbout.sectionHeader }}</h3>
-          <a href="{{ siteUrl }}about" class="section-header-link">Read More</a>
-      </div>
-      <div class="d-flex flex-column gap-3">
-          {% set aboutEntries = craft.entries().section('aboutArticles').limit(2).all() %}
-          {% for aboutEntry in aboutEntries %}
-          <div class="d-flex align-items-center justify-content-between mt-5">
-              <h5 class="align-self-start">{{ aboutEntry.articleTopic }}</h5>
-              <div class="about-article-content d-flex flex-column gap-3">
-                  <h4>{{ aboutEntry.title }}</h4>
-                  <p>{{ aboutEntry.articleIntro }}</p>
-                  <a href="{{ aboutEntry.url }}" class="default-link">Read More</a>
-              </div>
-              <div class="d-flex justify-content-end">
-                  <img src="{{ aboutEntry.articleBanner.one().url('articleMedia') }}" />
-              </div>
-          </div>
-          {% endfor %}
-      </div>
+  <section class="about-section container mt-5 mb-5 pt-5 pb-5 d-flex flex-column gap-5">
+    {% set aboutEntries = craft.entries().section('aboutArticles').limit(2).all() %}
+    {% for aboutEntry in aboutEntries %}
+    <article id="{{aboutEntry.articleTopic}}" class="d-flex flex-column gap-3 align-items-center">
+        <div class="">
+            <img src="{{ aboutEntry.articleBanner.one().url('largeImageBanner') }}" />
+        </div>
+        <h3 class="text-decoration-underline">{{ aboutEntry.title }}</h3>
+        <h6 class="">{{ aboutEntry.articleTopic }}</h6>
+        <div class="about-article-content d-flex flex-column gap-3 text-center">
+            <p>{{ aboutEntry.articleParagraph }}</p>
+        </div>
+    </article>
+    {% endfor %}
   </section>
 </main>
 {% endblock %}

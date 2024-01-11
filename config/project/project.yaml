@@ -1,4 +1,4 @@
-dateModified: 1704660177
+dateModified: 1704933563
 email:
   fromEmail: r0900654@student.thomasmore.be
   fromName: 'Support Trees'
@@ -29,6 +29,7 @@ meta:
     12bb8b12-b1a3-4dc4-9109-5fac15f12e83: 'Hero Video Section' # Hero Video Section
     24d81c84-bda5-49fb-b1e5-0c1681f48834: 'Trees Section' # Trees Section
     32dec001-f070-461b-8054-983a36b0ef6c: 'Video Header' # Video Header
+    605c09d9-7b17-4e5e-b20c-029f6b7e82ea: 'Large Image Banner' # Large Image Banner
     892c1859-9d80-45f3-a599-6bc22213995b: 'Trees Articles' # Trees Articles
     4669bc15-efaa-40ee-9f10-96e7d14650c0: 'Article Media' # Article Media
     17485ac0-9074-461f-acdf-cb0cfcb2cfa4: 'Mature Size (Width)' # Mature Size (Width)
