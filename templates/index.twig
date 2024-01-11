@@ -6,8 +6,13 @@
     {# Hero Video Section #}
     <section class="intro-section container d-flex justify-content-center flex-column gap-5 mt-5 mb-5 pb-5">
         {# Hero Video #}
-        {% set heroSectionEntries = craft.entries().section('heroVideoSection').one %}
-        <iframe src="{{ heroSectionEntries.videoHeader }}controls=0&autoplay=1&mute=1&loop=1"></iframe>
+        <div class="video-container">
+            {% set heroSectionEntries = craft.entries().section('heroVideoSection').one %}
+            <video autoplay muted loop>
+                <source src="{{ heroSectionEntries.homeHeroVideo.one().url }}" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+        </div>
         {# Intro Text Section #}
         <div class="d-flex justify-content-between align-items-center">
             <h2 class="col-3 lh-base">{{ heroSectionEntries.sectionHeader }}</h2>

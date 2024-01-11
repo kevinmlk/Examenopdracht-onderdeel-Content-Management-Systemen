@@ -1,4 +1,4 @@
-dateModified: 1704933563
+dateModified: 1704971437
 email:
   fromEmail: r0900654@student.thomasmore.be
   fromName: 'Support Trees'
@@ -53,6 +53,7 @@ meta:
     ddf28a1a-aba0-4630-a818-649e02804c20: 'Article Paragraph' # Article Paragraph
     de88e656-e02f-4c55-9423-6f2387493325: TreeArticle # TreeArticle
     e7a6fa66-488e-4eec-b245-fafd1fb05c5c: 'Header Logo' # Header Logo
+    e17aeda7-197a-4b9f-9247-f89c96f1fde6: 'Home Hero Video' # Home Hero Video
     e77a88ba-1447-4488-81c4-19dc2fb3e638: 'Plant Type' # Plant Type
     e85c4278-feb8-4a9d-b3d8-ee47e782725e: 'Home Hero Section' # Home Hero Section
     ee746d06-a2cd-49ba-8254-f3c9b022431c: 'Support Trees' # Support Trees

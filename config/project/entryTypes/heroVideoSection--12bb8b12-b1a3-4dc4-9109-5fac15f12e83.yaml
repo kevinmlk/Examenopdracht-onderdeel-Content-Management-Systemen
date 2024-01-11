@@ -45,6 +45,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: e17aeda7-197a-4b9f-9247-f89c96f1fde6 # Home Hero Video
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a23d920a-0d46-4bc4-a903-903b27f24021
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: f817d004-c851-42a2-a118-3b5bb3cf7b80 # Section Header
             instructions: null
             label: null
