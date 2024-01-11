@@ -1,0 +1,83 @@
+fieldLayouts:
+  d66bcc5a-3e53-4ad1-92af-7a2f4071a46e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: cfc5f23e-6728-4fa2-bd3c-d293645b7c60
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e17aeda7-197a-4b9f-9247-f89c96f1fde6 # Home Hero Video
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a23d920a-0d46-4bc4-a903-903b27f24021
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f817d004-c851-42a2-a118-3b5bb3cf7b80 # Section Header
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 67d2f447-5b5e-43f9-a84c-51b9903f10fb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ddf28a1a-aba0-4630-a818-649e02804c20 # Article Paragraph
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 21ac2560-d8e3-4da9-8829-eb2b25fa7411
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 395d0fd7-5692-49cd-8afe-5da5d30be038
+        userCondition: null
+handle: heroVideoSection
+hasTitleField: false
+name: 'Hero Video Section'
+section: fd513c68-7174-4305-9284-628b1d6e09ae # Hero Video Section
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,0 +1,23 @@
+columnSuffix: iyudqigl
+contentColumnType: text
+fieldGroup: 24d81c84-bda5-49fb-b1e5-0c1681f48834 # Trees Section
+handle: treeArticle
+instructions: null
+name: TreeArticle
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  columnType: text
+  purifierConfig: Default.json
+  purifyHtml: true
+  removeEmptyTags: false
+  removeInlineStyles: false
+  removeNbsp: false
+  showHtmlButtonForNonAdmins: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  tinymceConfig: Default.json
+translationKeyFormat: null
+translationMethod: none
+type: abmat\tinymce\Field

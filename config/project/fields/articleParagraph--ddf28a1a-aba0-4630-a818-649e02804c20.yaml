@@ -1,0 +1,19 @@
+columnSuffix: rhhinmav
+contentColumnType: text
+fieldGroup: efd20e6b-636c-4c56-bfcb-514a4816314b # Common
+handle: articleParagraph
+instructions: null
+name: 'Article Paragraph'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

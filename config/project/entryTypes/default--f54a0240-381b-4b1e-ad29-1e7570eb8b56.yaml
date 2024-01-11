@@ -1,0 +1,179 @@
+fieldLayouts:
+  d2ead231-a1bc-4718-83bb-6d9eb17e143f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: eb8a4857-a377-49e6-bdc9-e4e261e9a1d0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 307986f1-bd25-45e4-9411-b7ca2a298d76 # Tree Thumbnail
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 576362f5-c6d9-4383-aef7-99c9324fc9b8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: aeaeb566-05e0-4d05-97e7-86abeed9f6dc # Botanical Name
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a3274538-01ef-4451-b8c5-110d27a96e6d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5a06ca47-2772-4c93-8805-3823ef2003c1 # Mature Size (Height)
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f33ed08a-85ab-45df-8a5b-c99acd1e2899
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 17485ac0-9074-461f-acdf-cb0cfcb2cfa4 # Mature Size (Width)
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fcaea553-7dec-42fe-9cfa-5283231c22bd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6d389e7d-4195-4746-8c83-9fca23194a5b # Native Areas
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: feee0f3a-4306-4ce8-9070-3ef7ee79a227
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 48306e20-42b6-4b53-9783-daebd209a86d # Plant Family
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0e5d024c-0ef5-4311-bf6d-caf077a2065d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e77a88ba-1447-4488-81c4-19dc2fb3e638 # Plant Type
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5a0234fc-eaa4-4409-b2bf-2cdd571796fe
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5c03b3bc-95e7-4886-835d-8d4e701ecea0 # Tree Intro Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c1c3d903-2edc-4496-bd5b-4610bc84d706
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: de88e656-e02f-4c55-9423-6f2387493325 # TreeArticle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4aeb7995-6d92-42d9-a0d1-544dda1a0762
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 6f63a5c4-3993-4304-b68d-3e584c6c7efc # Tree Link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 73da3bfd-d268-4823-8ea5-e2eb3dceedc7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e8850948-e379-4706-9011-cd7ddf0b07d2 # Store Areas
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 662935fa-cb95-4c6c-a142-6d9b171a3175
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6c6103e8-2324-47cb-8ac9-24e9a44bd198
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 892c1859-9d80-45f3-a599-6bc22213995b # Trees Articles
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

@@ -1,13 +1,96 @@
-dateModified: 1703355022
+dateModified: 1704983127
 email:
   fromEmail: r0900654@student.thomasmore.be
   fromName: 'Support Trees'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  assets:
+    hasUrls: true
+    name: Assets
+    settings:
+      path: '@webroot/assets'
+    type: craft\fs\Local
+    url: '@web/assets'
 meta:
   __names__:
+    0c57e405-1b05-4fe5-b3f2-b98c8c86b2fb: 'About Articles' # About Articles
+    1ecc13eb-5d8e-4e2c-b6b9-05bb67c8963c: 'Store Areas' # Store Areas
+    3a9d5b49-ea42-4a10-808e-70d2e60cff75: 'Home Slider Section' # Home Slider Section
+    3b037fb3-1406-48fc-886d-177bb2cb11b7: Default # Default
+    5a06ca47-2772-4c93-8805-3823ef2003c1: 'Mature Size (Height)' # Mature Size (Height)
+    5c03b3bc-95e7-4886-835d-8d4e701ecea0: 'Tree Intro Text' # Tree Intro Text
+    5f835624-d096-43b0-bae0-4326252d24c3: 'Header Image (Detail Page)' # Header Image (Detail Page)
+    6a0b1761-f669-4f5b-85e6-9978bee753d6: 'Trees Assets' # Trees Assets
+    6d389e7d-4195-4746-8c83-9fca23194a5b: 'Native Areas' # Native Areas
+    6da48a5d-6d62-46f6-b67c-34afb4915a05: 'Article Topic' # Article Topic
+    6f63a5c4-3993-4304-b68d-3e584c6c7efc: 'Tree Link' # Tree Link
+    8dedf74c-c687-4cb6-a8d8-5f7f5bab7ef4: Default # Default
+    8f7d83f9-7382-4988-a48f-77f451ff7d08: 'Tree Large Thumbnail' # Tree Large Thumbnail
+    9db6f2dc-5ee6-4f87-a572-3fe14af8ba1f: 'About Articles' # About Articles
+    9dcd4f87-4e17-47e0-83e2-5fbabaa86d30: 'Detail Header' # Detail Header
+    12bb8b12-b1a3-4dc4-9109-5fac15f12e83: 'Hero Video Section' # Hero Video Section
+    24d81c84-bda5-49fb-b1e5-0c1681f48834: 'Trees Section' # Trees Section
+    605c09d9-7b17-4e5e-b20c-029f6b7e82ea: 'Large Image Banner' # Large Image Banner
+    892c1859-9d80-45f3-a599-6bc22213995b: 'Trees Articles' # Trees Articles
+    4669bc15-efaa-40ee-9f10-96e7d14650c0: 'Article Media' # Article Media
+    17485ac0-9074-461f-acdf-cb0cfcb2cfa4: 'Mature Size (Width)' # Mature Size (Width)
+    48306e20-42b6-4b53-9783-daebd209a86d: 'Plant Family' # Plant Family
+    53973bd1-6806-4012-81fa-59993f391e9d: Header # Header
+    74047cc2-46fd-4101-a558-54324cc134b7: 'Home About Section' # Home About Section
+    307986f1-bd25-45e4-9411-b7ca2a298d76: 'Tree Thumbnail' # Tree Thumbnail
     773026d7-893c-46bb-9217-5e3c6b935c98: 'Support Trees' # Support Trees
+    85047217-bd0b-46b6-8be1-26d7e0a3a6f8: Default # Default
+    a934eed7-50b0-4069-bd63-9ee5af8a4d20: 'Home About Section' # Home About Section
+    ab37d1cc-b11f-4ebd-8c13-0a398effc77d: 'Insta Feed Section' # Insta Feed Section
+    aeaeb566-05e0-4d05-97e7-86abeed9f6dc: 'Botanical Name' # Botanical Name
+    c0d0d5d7-1692-47aa-873c-a2ece8089d43: 'Header Logo Icon' # Header Logo Icon
+    c0280319-5ed5-416b-b798-60232253f4cb: 'Article Intro' # Article Intro
+    c225c914-5b17-456c-962e-5d652d556c82: 'Rich Text' # Rich Text
+    cb48e674-649c-47f1-85d2-58c3d7d68202: 'Tree Medium Thumbnail' # Tree Medium Thumbnail
+    cc39aeb2-6862-411f-a182-99eb82df8806: Header # Header
+    ceb04f13-619f-4eea-869a-041edd83ab8b: 'Article Banner' # Article Banner
+    d1eee549-1466-4819-af4b-c026d30eee12: 'Home Slider Section' # Home Slider Section
+    d3e33c15-1b62-4cfb-bc23-5afa9a2a73cb: 'Insta Feed Section' # Insta Feed Section
+    ddf28a1a-aba0-4630-a818-649e02804c20: 'Article Paragraph' # Article Paragraph
+    de88e656-e02f-4c55-9423-6f2387493325: TreeArticle # TreeArticle
+    e7a6fa66-488e-4eec-b245-fafd1fb05c5c: 'Header Logo' # Header Logo
+    e17aeda7-197a-4b9f-9247-f89c96f1fde6: 'Home Hero Video' # Home Hero Video
+    e77a88ba-1447-4488-81c4-19dc2fb3e638: 'Plant Type' # Plant Type
+    e85c4278-feb8-4a9d-b3d8-ee47e782725e: 'Home Hero Section' # Home Hero Section
+    e8850948-e379-4706-9011-cd7ddf0b07d2: 'Store Areas' # Store Areas
     ee746d06-a2cd-49ba-8254-f3c9b022431c: 'Support Trees' # Support Trees
     efd20e6b-636c-4c56-bfcb-514a4816314b: Common # Common
+    f54a0240-381b-4b1e-ad29-1e7570eb8b56: Default # Default
+    f817d004-c851-42a2-a118-3b5bb3cf7b80: 'Section Header' # Section Header
+    fba12a27-9527-4c3f-8d75-ff263e05975c: Thumbnail # Thumbnail
+    fd513c68-7174-4305-9284-628b1d6e09ae: 'Hero Video Section' # Hero Video Section
+    fdfb4506-ae07-4852-8874-c5a371fc914b: 'Header Image' # Header Image
+plugins:
+  abm-tinymce:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  instagramfeed:
+    edition: standard
+    enabled: false
+    schemaVersion: 1.0.0
+    settings:
+      dump: false
+      instagramUser: supporttrees
+      proxyKey: ABCDEF0123456
+      subpath: instagram/
+      timeout: 10
+      useProxy: true
+      useVolume: false
+      volume: treesAssets
+  oembed:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
 system:
   edition: solo
   live: true

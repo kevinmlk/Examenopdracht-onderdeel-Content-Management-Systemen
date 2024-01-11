@@ -1,0 +1,20 @@
+columnSuffix: hshhcxch
+contentColumnType: integer(10)
+fieldGroup: 24d81c84-bda5-49fb-b1e5-0c1681f48834 # Trees Section
+handle: matureSizeWidth
+instructions: null
+name: 'Mature Size (Width)'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: null
+  min: 0
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: 'ft. wide'
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

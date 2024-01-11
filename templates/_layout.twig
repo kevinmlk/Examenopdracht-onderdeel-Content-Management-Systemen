@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="{{craft.app.language}}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{siteName}}</title>
+  {# Reset CSS #}
+  {% do craft.app.view.registerCssFile('@web/css/reset.css') %}
+  {# Bootstrap files #}
+  {% do craft.app.view.registerCssFile('@web/bootstrap/css/bootstrap.min.css') %}
+  {# Style CSS #}
+  {% do craft.app.view.registerCssFile('@web/css/style.css?12345') %}
+  {# Google fonts #}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  {# Glide.js Core CSS #}
+  {% do craft.app.view.registerCssFile('@web/css/glide.core.min.css') %}
+</head>
+
+<body>
+  <header class="container d-flex justify-content-between mt-5">
+    <h1><a href="{{siteUrl}}" class="link-underline-success">Support Trees</a></h1>
+    <nav class="d-flex gap-3 align-items-center">
+      <ul id="nav-menu" class="nav justify-content-end">
+        <li class="nav-item"><a href="{{siteUrl}}trees" class="nav-link">Trees</a></li>
+        <li class="nav-item"><a href="{{siteUrl}}about" class="nav-link">About</a></li>
+        {# <li class="nav-item"><a href="{{siteUrl}}inspire" class="nav-link">Inspire</a></li> #}
+      </ul>
+      <a href="https://www.arborday.org/" target="_blank"><button type="button" class="btn btn-outline-primary">Donate</button></a>
+    </nav>
+  </header>
+
+  {% block content %}
+  {# Here comses the content #}
+  {% endblock %}
+
+  <footer class="container d-flex flex-column gap-5 mt-5 pt-5 mb-5">
+      <div class="d-flex gap-5">
+        <h3><a href="{{ siteUrl }}" class="link-underline-success">Support Trees</a></h3>
+        <nav class="d-flex gap-3">
+          <ul id="nav-menu" class="nav">
+            <li class="nav-item"><a href="{{ siteUrl }}trees" class="nav-link">Trees</a></li>
+            <li class="nav-item"><a href="{{ siteUrl }}about" class="nav-link">About</a></li>
+            {# <li class="nav-item"><a href="{{ siteUrl }}inspire" class="nav-link">Inspire</a></li> #}
+            <li class="nav-item"><a href="https://www.arborday.org/" class="nav-link" target="_blank">Donate</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="d-flex justify-content-between align-items-center">
+        <p id="copyright">© <a href="https://kevinmalekera.be/" target="_blank" class="footer-link">Kevin Malekera</a>  |  2nd year XD student  |  <a href="https://thomasmore.be/nl" target="_blank" class="footer-link">Thomas More</a></p>
+        <a href="https://www.wearexd.be/" target="_blank" id="XD-link" class="footer-link">#WeAreXD</a>
+      </div>
+  </footer>
+{# JS script links #}
+<script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+<script>
+  const config = {
+    type: 'carousel',
+    startAt: 0,
+    perView: 3,
+    autoplay: 3000,
+    hoverpause: true,
+    peek: 100,
+    gap: 20,
+  };
+
+  new Glide('.glide', config).mount();
+</script>
+</body>
+</html>

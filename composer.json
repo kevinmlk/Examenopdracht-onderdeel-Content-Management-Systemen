@@ -1,7 +1,12 @@
 {
   "require": {
-    "craftcms/cms": "^4.4.0",
-    "vlucas/phpdotenv": "^5.4.0"
+    "abmat/craft-tinymce": "1.0.6",
+    "codemonauts/craft-instagram-feed": "2.2.1",
+    "craftcms/cms": "4.6.0",
+    "craftcms/element-api": "3.0.1.1",
+    "nystudio107/craft-youtubeliveembed": "4.0.1",
+    "vlucas/phpdotenv": "^5.4.0",
+    "wrav/oembed": "3.0.7"
   },
   "require-dev": {
     "craftcms/generator": "^1.3.0",
@@ -27,5 +32,12 @@
     "post-root-package-install": [
       "@php -r \"file_exists('.env') || copy('.env.example.dev', '.env');\""
     ]
-  }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.craftcms.com",
+      "canonical": false
+    }
+  ]
 }

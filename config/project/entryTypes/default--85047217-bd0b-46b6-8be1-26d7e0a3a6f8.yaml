@@ -1,0 +1,59 @@
+fieldLayouts:
+  1c2aa472-8190-4fca-8ffb-4cf54559df1d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ba1f782a-d879-44c2-aaef-2df2396eabf5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 5f835624-d096-43b0-bae0-4326252d24c3 # Header Image (Detail Page)
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ab136ca0-303c-4562-9b20-e7ecd6a473c7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d7e9b554-ab46-42d1-af7a-7011f5053a94
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 9dcd4f87-4e17-47e0-83e2-5fbabaa86d30 # Detail Header
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

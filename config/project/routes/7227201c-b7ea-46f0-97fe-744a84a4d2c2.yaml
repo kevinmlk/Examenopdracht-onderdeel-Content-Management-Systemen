@@ -1,0 +1,6 @@
+siteUid: null
+sortOrder: 1
+template: trees/_alltrees
+uriParts:
+  - trees
+uriPattern: trees

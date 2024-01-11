@@ -1,0 +1,35 @@
+columnSuffix: gyvthpud
+contentColumnType: string(12)
+fieldGroup: 24d81c84-bda5-49fb-b1e5-0c1681f48834 # Trees Section
+handle: nativeAreas
+instructions: null
+name: 'Native Areas'
+searchable: false
+settings:
+  columnType: null
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - North-America
+        -
+          - value
+          - northAmerica
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - East-Asia
+        -
+          - value
+          - eastAsia
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

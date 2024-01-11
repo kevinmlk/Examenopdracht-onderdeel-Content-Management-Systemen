@@ -1,0 +1,19 @@
+columnSuffix: sfywoqzb
+contentColumnType: text
+fieldGroup: 24d81c84-bda5-49fb-b1e5-0c1681f48834 # Trees Section
+handle: treeIntroText
+instructions: null
+name: 'Tree Intro Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

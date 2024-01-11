@@ -1,0 +1,14 @@
+columnSuffix: vrkdtcxz
+contentColumnType: string(255)
+fieldGroup: 24d81c84-bda5-49fb-b1e5-0c1681f48834 # Trees Section
+handle: treeLink
+instructions: null
+name: 'Tree Link'
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url

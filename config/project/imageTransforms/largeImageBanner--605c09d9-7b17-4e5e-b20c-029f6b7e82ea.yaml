@@ -1,0 +1,11 @@
+fill: null
+format: null
+handle: largeImageBanner
+height: 688
+interlace: none
+mode: crop
+name: 'Large Image Banner'
+position: center-center
+quality: null
+upscale: true
+width: 1296

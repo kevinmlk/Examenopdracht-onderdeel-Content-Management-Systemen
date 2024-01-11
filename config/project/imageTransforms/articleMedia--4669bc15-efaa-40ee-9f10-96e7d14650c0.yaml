@@ -1,0 +1,11 @@
+fill: null
+format: null
+handle: articleMedia
+height: 175
+interlace: none
+mode: crop
+name: 'Article Media'
+position: center-center
+quality: null
+upscale: true
+width: 175

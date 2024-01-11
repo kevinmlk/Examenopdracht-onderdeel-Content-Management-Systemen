@@ -1,0 +1,19 @@
+columnSuffix: gazybelk
+contentColumnType: text
+fieldGroup: efd20e6b-636c-4c56-bfcb-514a4816314b # Common
+handle: sectionHeader
+instructions: null
+name: 'Section Header'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: 'This is a header'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
