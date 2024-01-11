@@ -44,7 +44,6 @@ return [
                         'plantFamily' => $entry->plantFamily->label,
                         'plantType' => $entry->plantType->label,
                         'introText' => $entry->treeIntroText,
-                        // 'treeArticle' => $entry->treeArticle,
                         'treeLink' => $entry->treeLink,
                     ];
                 },
