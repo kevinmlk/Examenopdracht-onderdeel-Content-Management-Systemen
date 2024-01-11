@@ -1,4 +1,4 @@
-dateModified: 1704973967
+dateModified: 1704975517
 email:
   fromEmail: r0900654@student.thomasmore.be
   fromName: 'Support Trees'
@@ -86,7 +86,7 @@ plugins:
       volume: treesAssets
   oembed:
     edition: standard
-    enabled: false
+    enabled: true
     schemaVersion: 1.0.1
 system:
   edition: solo

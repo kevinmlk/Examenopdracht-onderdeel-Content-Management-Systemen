@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e8f1e73e61d627eb832c1df52732cea6",
+    "content-hash": "66e73be3907195d0ec2c8d30abff25b4",
     "packages": [
         {
             "name": "abmat/craft-tinymce",
@@ -2045,6 +2045,57 @@
             "time": "2023-10-27T15:25:26+00:00"
         },
         {
+            "name": "nystudio107/craft-youtubeliveembed",
+            "version": "4.0.1",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nystudio107/craft-youtubeliveembed/zipball/d234a187f6e8bf8e8e2fd25ee8c05393ea6888a9",
+                "reference": "d234a187f6e8bf8e8e2fd25ee8c05393ea6888a9",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "class": "nystudio107\\youtubeliveembed\\YoutubeLiveEmbed",
+                "handle": "youtubeliveembed",
+                "name": "YouTube Live Embed"
+            },
+            "autoload": {
+                "psr-4": {
+                    "nystudio107\\youtubeliveembed\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "nystudio107",
+                    "homepage": "https://nystudio107.com"
+                }
+            ],
+            "description": "This plugin allows you to embed a YouTube live stream and/or live chat on your webpage",
+            "keywords": [
+                "chat",
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "embed",
+                "live",
+                "stream",
+                "youtube"
+            ],
+            "support": {
+                "docs": "https://nystudio107.com/docs/youtubeliveembed/",
+                "issues": "https://nystudio107.com/plugins/youtube-live-embed/support",
+                "source": "https://github.com/nystudio107/craft-youtubeliveembed"
+            },
+            "time": "2023-04-20T04:39:59+00:00"
+        },
+        {
             "name": "oscarotero/html-parser",
             "version": "v0.1.8",
             "dist": {
@@ -2205,11 +2256,16 @@
         },
         {
             "name": "phpdocumentor/type-resolver",
-            "version": "1.7.3",
+            "version": "1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/TypeResolver.git",
+                "reference": "fad452781b3d774e3337b0c0b245dd8e5a4455fc"
+            },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/3219c6ee25c9ea71e3d9bbaf39c67c9ebd499419",
-                "reference": "3219c6ee25c9ea71e3d9bbaf39c67c9ebd499419",
+                "url": "https://api.github.com/repos/phpDocumentor/TypeResolver/zipball/fad452781b3d774e3337b0c0b245dd8e5a4455fc",
+                "reference": "fad452781b3d774e3337b0c0b245dd8e5a4455fc",
                 "shasum": ""
             },
             "require": {
@@ -2217,6 +2273,16 @@
                 "php": "^7.4 || ^8.0",
                 "phpdocumentor/reflection-common": "^2.0",
                 "phpstan/phpdoc-parser": "^1.13"
+            },
+            "require-dev": {
+                "ext-tokenizer": "*",
+                "phpbench/phpbench": "^1.2",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan": "^1.8",
+                "phpstan/phpstan-phpunit": "^1.1",
+                "phpunit/phpunit": "^9.5",
+                "rector/rector": "^0.13.9",
+                "vimeo/psalm": "^4.25"
             },
             "type": "library",
             "extra": {
@@ -2229,6 +2295,7 @@
                     "phpDocumentor\\Reflection\\": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2239,7 +2306,11 @@
                 }
             ],
             "description": "A PSR-5 based resolver of Class names, Types and Structural Element Names",
-            "time": "2023-08-12T11:01:26+00:00"
+            "support": {
+                "issues": "https://github.com/phpDocumentor/TypeResolver/issues",
+                "source": "https://github.com/phpDocumentor/TypeResolver/tree/1.8.0"
+            },
+            "time": "2024-01-11T11:49:22+00:00"
         },
         {
             "name": "phpoption/phpoption",
