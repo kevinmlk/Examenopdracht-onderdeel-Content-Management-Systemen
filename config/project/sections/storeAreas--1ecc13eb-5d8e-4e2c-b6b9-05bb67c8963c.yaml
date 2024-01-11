@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: storeAreas
+name: 'Store Areas'
+propagationMethod: all
+siteSettings:
+  ee746d06-a2cd-49ba-8254-f3c9b022431c: # Support Trees
+    enabledByDefault: true
+    hasUrls: true
+    template: store-areas/_entry
+    uriFormat: 'store-areas/{slug}'
+structure:
+  maxLevels: null
+  uid: c2d37509-0812-42cb-89d8-b311adfa148c
+type: structure

@@ -1,4 +1,4 @@
-dateModified: 1704975517
+dateModified: 1704983127
 email:
   fromEmail: r0900654@student.thomasmore.be
   fromName: 'Support Trees'
@@ -14,6 +14,7 @@ fs:
 meta:
   __names__:
     0c57e405-1b05-4fe5-b3f2-b98c8c86b2fb: 'About Articles' # About Articles
+    1ecc13eb-5d8e-4e2c-b6b9-05bb67c8963c: 'Store Areas' # Store Areas
     3a9d5b49-ea42-4a10-808e-70d2e60cff75: 'Home Slider Section' # Home Slider Section
     3b037fb3-1406-48fc-886d-177bb2cb11b7: Default # Default
     5a06ca47-2772-4c93-8805-3823ef2003c1: 'Mature Size (Height)' # Mature Size (Height)
@@ -23,6 +24,7 @@ meta:
     6d389e7d-4195-4746-8c83-9fca23194a5b: 'Native Areas' # Native Areas
     6da48a5d-6d62-46f6-b67c-34afb4915a05: 'Article Topic' # Article Topic
     6f63a5c4-3993-4304-b68d-3e584c6c7efc: 'Tree Link' # Tree Link
+    8dedf74c-c687-4cb6-a8d8-5f7f5bab7ef4: Default # Default
     8f7d83f9-7382-4988-a48f-77f451ff7d08: 'Tree Large Thumbnail' # Tree Large Thumbnail
     9db6f2dc-5ee6-4f87-a572-3fe14af8ba1f: 'About Articles' # About Articles
     9dcd4f87-4e17-47e0-83e2-5fbabaa86d30: 'Detail Header' # Detail Header
@@ -55,6 +57,7 @@ meta:
     e17aeda7-197a-4b9f-9247-f89c96f1fde6: 'Home Hero Video' # Home Hero Video
     e77a88ba-1447-4488-81c4-19dc2fb3e638: 'Plant Type' # Plant Type
     e85c4278-feb8-4a9d-b3d8-ee47e782725e: 'Home Hero Section' # Home Hero Section
+    e8850948-e379-4706-9011-cd7ddf0b07d2: 'Store Areas' # Store Areas
     ee746d06-a2cd-49ba-8254-f3c9b022431c: 'Support Trees' # Support Trees
     efd20e6b-636c-4c56-bfcb-514a4816314b: Common # Common
     f54a0240-381b-4b1e-ad29-1e7570eb8b56: Default # Default

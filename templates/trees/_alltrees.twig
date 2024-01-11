@@ -12,12 +12,23 @@
   <section class="container mt-5 mb-5 pt-5 pb-5">
     {% set homeSliderSection = craft.entries().section('homeSliderSection').one %}
     <h3>{{ homeSliderSection.sectionHeader }}</h3>
+    {# Native area filter #}
+    {% set filterItems = craft.entries().section('storeAreas').all() %}
+    <div class='filter-items'>
+    {% for item in filterItems %}
+    <label><input type='checkbox' name='{{item}}'/>{{item}}</label>
+    {% endfor %}
+    </div>
     {# Trees gallery #}
-    <div class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+    <div class="trees-container row row-cols-1 row-cols-md-3 g-4 mt-5">
       {% set treesEntries = craft.entries().section('treesArticles').all() %}
       {% for treesEntry in treesEntries %}
-      <div class="col">
-        <div class="card">
+      <div class="col d-flex">
+        <div class="card"
+        {% for nativeAreaFilter in treesEntry.storeAreas %}
+        data-{{nativeAreaFilter}}
+        {% endfor %} 
+        >
           <img src="{{ treesEntry.treeThumbnail.one().url('treeMediumThumbnail') }}" class="card-img-top" alt="{{ treesEntry.title }}">
           <div class="card-body">
             <h5 class="card-title">{{ treesEntry.title }}</h5>
@@ -37,5 +48,42 @@
       {% endfor %}
     </div>
   </section>
+
+  <script>
+    let selectedAreas = [];
+    document.querySelectorAll(".filter-items input").forEach((element) => {
+      element.addEventListener("change", onSelectArea);
+    });
+
+    function onSelectArea(e) {
+      console.log("change");
+      if (selectedAreas.includes(this.name)) {
+        let index = selectedAreas.indexOf(this.name);
+        selectedAreas.splice(index, 1);
+      }
+      else {
+        selectedAreas.push(this.name);
+      }
+      console.log(selectedAreas);
+      updateGrid();
+    }
+
+    function updateGrid() {
+      console.log("updateGrid");
+      document.querySelectorAll(".trees-container .card").forEach((el) => {
+        el.style.display = "none";
+        // console.log(selectedAreas);
+        for (let i = 0; i < selectedAreas.length; i++) {
+          // console.log(el.hasAttribute("data-" + selectedAreas[i]));
+          if (el.hasAttribute("data-" + selectedAreas[i])) {
+            el.style.display = "block";
+          }
+        }
+        if (selectedAreas.length == 0) {
+          el.style.display = "block";
+        }
+      });
+    }
+  </script>
 
 {% endblock %}
