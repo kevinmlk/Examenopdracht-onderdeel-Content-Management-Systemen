@@ -2,7 +2,7 @@
   "require": {
     "abmat/craft-tinymce": "1.0.6",
     "codemonauts/craft-instagram-feed": "2.2.1",
-    "craftcms/cms": "4.6.0",
+    "craftcms/cms": "4.7.0",
     "craftcms/element-api": "3.0.1.1",
     "nystudio107/craft-youtubeliveembed": "4.0.1",
     "vlucas/phpdotenv": "^5.4.0",
